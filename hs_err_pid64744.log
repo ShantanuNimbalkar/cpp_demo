@@ -1,0 +1,120 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 696320 bytes for object start array expansion
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (objectStartArray.cpp:102), pid=64744, tid=0x0000000000006d44
+#
+# JRE version:  (8.0_191-b12) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.191-b12 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002b0b800):  JavaThread "Unknown thread" [_thread_in_vm, id=27972, stack(0x0000000002a00000,0x0000000002b00000)]
+
+Stack: [0x0000000002a00000,0x0000000002b00000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002b0b800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=27972, stack(0x0000000002a00000,0x0000000002b00000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff61f360000 - 0x00007ff61f397000 	C:\Program Files\Java\jdk1.8.0_191\bin\java.exe
+0x00007ffb2ab10000 - 0x00007ffb2ad05000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffb28fe0000 - 0x00007ffb2909e000 	C:\WINDOWS\System32\KERNEL32.dll
+0x00007ffb27ea0000 - 0x00007ffb27fc7000 	C:\Windows\system32\hmpalert.dll
+0x00007ffb28360000 - 0x00007ffb28628000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffb240e0000 - 0x00007ffb24170000 	C:\WINDOWS\SYSTEM32\apphelp.dll
+0x00007ffb2a5f0000 - 0x00007ffb2a69c000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffb2a4d0000 - 0x00007ffb2a56e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffb29c00000 - 0x00007ffb29c9b000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffb2a9a0000 - 0x00007ffb2aaca000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffb2a7d0000 - 0x00007ffb2a971000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffb28330000 - 0x00007ffb28352000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffb292d0000 - 0x00007ffb292fb000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffb28630000 - 0x00007ffb2873b000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffb28910000 - 0x00007ffb289ad000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffb28230000 - 0x00007ffb28330000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffb093b0000 - 0x00007ffb0964a000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\COMCTL32.dll
+0x00007ffb29360000 - 0x00007ffb29390000 	C:\WINDOWS\System32\IMM32.DLL
+0x000000005a150000 - 0x000000005a222000 	C:\Program Files\Java\jdk1.8.0_191\jre\bin\msvcr100.dll
+0x000000005aa80000 - 0x000000005b324000 	C:\Program Files\Java\jdk1.8.0_191\jre\bin\server\jvm.dll
+0x00007ffb2a570000 - 0x00007ffb2a578000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffb0dd20000 - 0x00007ffb0dd47000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffb0cca0000 - 0x00007ffb0cca9000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffb210d0000 - 0x00007ffb210da000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffb2a580000 - 0x00007ffb2a5eb000 	C:\WINDOWS\System32\WS2_32.dll
+0x000000005d9a0000 - 0x000000005d9af000 	C:\Program Files\Java\jdk1.8.0_191\jre\bin\verify.dll
+0x000000005d970000 - 0x000000005d999000 	C:\Program Files\Java\jdk1.8.0_191\jre\bin\java.dll
+0x000000005d950000 - 0x000000005d966000 	C:\Program Files\Java\jdk1.8.0_191\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Xmx1024m -Dlog4j.configuration=file:///c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\../config/log4j2.xml -Dapp.name=coronalightls -Dapp.repo=c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib -Dapp.home=c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\.. -Dbasedir=c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\.. 
+java_command: com.acellere.corona.langserver.LanguageServerLauncher
+java_class_path (initial): c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\config;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\analyser-20.5.0-SNAPSHOT.jar;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\antipatterns-20.5.0-SNAPSHOT.jar;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\antlr4-runtime-4.7.1.jar;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\api-20.5.0-SNAPSHOT.jar;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\asm-6.1.1.jar;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\backend-20.5.0-SNAPSHOT.jar;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\byte-buddy-1.8.10.jar;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\byte-buddy-agent-1.8.10.jar;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\clones-20.5.0-SNAPSHOT.jar;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\cmx-20.5.0-SNAPSHOT.jar;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\collections-generic-4.01.jar;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\commons-20.5.0-SNAPSHOT.jar;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\commons-beanutils-1.8.3.jar;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\commons-cli-1.3.1.jar;c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib\commons
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_191
+CLASSPATH="c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\.."\config;"c:\Users\Nilesh\.vscode\extensions\anadndesai.coronalight-0.0.1\launcher\languageserver\bin\\..\lib"\*
+USERNAME=Nilesh
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 19041 (10.0.19041.1348)
+
+CPU:total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 142 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx
+
+Memory: 4k page, physical 33405704k(6672952k free), swap 63729156k(5156k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.191-b12) for windows-amd64 JRE (1.8.0_191-b12), built on Oct  6 2018 09:29:03 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Fri Nov 19 14:25:15 2021
+elapsed time: 0 seconds (0d 0h 0m 0s)
+
