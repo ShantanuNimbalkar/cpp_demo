@@ -1148,7 +1148,7 @@ modules:
        - key: "EMB-CPP-577"
          enabled: false
        - key: "EMB-CPP-578"
-         enabled: true
+         enabled: false
        - key: "EMB-CPP-579"
          enabled: true
        - key: "EMB-CPP-651"
