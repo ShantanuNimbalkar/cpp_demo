@@ -1,0 +1,321 @@
+version: 1
+## Please visit https://docs.embold.io/v2-quick-start-guide/#update-configurations to know more
+languages: 'CPP'
+# Sources mention which Files/Dirs to be taken for Analysis
+sources:
+  #Files or Directories to be Excluded are mentioned in exclusions
+  exclusions:
+    - 'test'
+    - 'generated'
+    - 'mock'
+    - 'thirdparty'
+    - 'third-party'
+    - '3rd-party'
+    - '3rdparty'
+    - 'external'
+    - 'build'
+    - 'node_modules'
+    - 'assets'
+    - 'gulp'
+    - 'grunt'
+    - 'library'
+    - 'libs'
+    - '.git'
+    - 'demosubproject'
+
+#Specify modules you would like to enable or disable.
+#modules:
+#    - key: gamma_java
+#      enabled: true
+#      rules:
+#         - key: 'EMB-JAVA-10'
+#           enabled: false
+#    - key: pmd
+#      enabled: true
+
+modules:
+    - name: gamma_cxx
+      enabled: true
+      rules:
+#        ruleName: "MISRA-C2012-1.1"
+       - name: "EMB-CPP-368"
+         enabled: false
+#        ruleName: "MISRA-C2012-2.7"
+       - name: "EMB-CPP-369"
+         enabled: false
+#        ruleName: "MISRA-C2012-4.2"
+       - name: "EMB-CPP-370"
+         enabled: false
+#        ruleName: "MISRA-C2012-5.2"
+       - name: "EMB-CPP-371"
+         enabled: false
+#        ruleName: "MISRA-C2012-5.6"
+       - name: "EMB-CPP-372"
+         enabled: false
+#        ruleName: "MISRA-C2012-5.7"
+       - name: "EMB-CPP-373"
+         enabled: false
+#        ruleName: "MISRA-C2012-5.9"
+       - name: "EMB-CPP-374"
+         enabled: false
+#        ruleName: "MISRA-C2012-6.1"
+       - name: "EMB-CPP-375"
+         enabled: false
+#        ruleName: "MISRA-C2012-6.2"
+       - name: "EMB-CPP-376"
+         enabled: false
+#        ruleName: "MISRA-C2012-7.2"
+       - name: "EMB-CPP-377"
+         enabled: false
+#        ruleName: "MISRA-C2012-7.4"
+       - name: "EMB-CPP-378"
+         enabled: false
+#        ruleName: "MISRA-C2012-8.1"
+       - name: "EMB-CPP-379"
+         enabled: false
+#        ruleName: "MISRA-C2012-8.2"
+       - name: "EMB-CPP-380"
+         enabled: false
+#        ruleName: "MISRA-C2012-8.4"
+       - name: "EMB-CPP-381"
+         enabled: false
+#        ruleName: "MISRA-C2012-8.5"
+       - name: "EMB-CPP-382"
+         enabled: false
+#        ruleName: "MISRA-C2012-8.6"
+       - name: "EMB-CPP-383"
+         enabled: false
+#        ruleName: "MISRA-C2012-8.7"
+       - name: "EMB-CPP-384"
+         enabled: false
+#        ruleName: "MISRA-C2012-8.8"
+       - name: "EMB-CPP-385"
+         enabled: false
+#        ruleName: "MISRA-C2012-8.9"
+       - name: "EMB-CPP-386"
+         enabled: false
+#        ruleName: "MISRA-C2012-8.10"
+       - name: "EMB-CPP-387"
+         enabled: false
+#        ruleName: "MISRA-C2012-8.11"
+       - name: "EMB-CPP-388"
+         enabled: false
+#        ruleName: "MISRA-C2012-9.3"
+       - name: "EMB-CPP-389"
+         enabled: false
+#        ruleName: "MISRA-C2012-9.4"
+       - name: "EMB-CPP-390"
+         enabled: false
+#        ruleName: "MISRA-C2012-10.5"
+       - name: "EMB-CPP-391"
+         enabled: false
+#        ruleName: "MISRA-C2012-11.1"
+       - name: "EMB-CPP-392"
+         enabled: false
+#        ruleName: "MISRA-C2012-11.2"
+       - name: "EMB-CPP-393"
+         enabled: false
+#        ruleName: "MISRA-C2012-11.4"
+       - name: "EMB-CPP-394"
+         enabled: false
+#        ruleName: "MISRA-C2012-11.5"
+       - name: "EMB-CPP-395"
+         enabled: false
+#        ruleName: "MISRA-C2012-17.2"
+       - name: "EMB-CPP-396"
+         enabled: false
+#        ruleName: "MISRA-C2012-17.3"
+       - name: "EMB-CPP-397"
+         enabled: false
+#        ruleName: "MISRA-C2012-17.4"
+       - name: "EMB-CPP-398"
+         enabled: false
+#        ruleName: "MISRA-C2012-17.7"
+       - name: "EMB-CPP-399"
+         enabled: false
+#        ruleName: "MISRA-C2012-18.4"
+       - name: "EMB-CPP-400"
+         enabled: false
+#        ruleName: "MISRA-C2012-18.7"
+       - name: "EMB-CPP-401"
+         enabled: false
+#        ruleName: "MISRA-C2012-20.7"
+       - name: "EMB-CPP-402"
+         enabled: false
+#        ruleName: "MISRA-C2012-3.2"
+       - name: "EMB-CPP-403"
+         enabled: false
+#        ruleName: "MISRA-C2012-20.8"
+       - name: "EMB-CPP-404"
+         enabled: false
+#        ruleName: "MISRA-C2012-20.11"
+       - name: "EMB-CPP-405"
+         enabled: false
+#        ruleName: "MISRA-C2012-20.12"
+       - name: "EMB-CPP-406"
+         enabled: false
+#        ruleName: "MISRA-C2012-20.13"
+       - name: "EMB-CPP-407"
+         enabled: false
+#        ruleName: "MISRA-C2012-20.14"
+       - name: "EMB-CPP-408"
+         enabled: false
+#        ruleName: "MISRA-C2012-21.1"
+       - name: "EMB-CPP-409"
+         enabled: false
+#        ruleName: "MISRA-C2012-21.6"
+       - name: "EMB-CPP-410"
+         enabled: false
+#        ruleName: "MISRA-C2012-21.8"
+       - name: "EMB-CPP-411"
+         enabled: false
+#        ruleName: "MISRA-C2012-21.10"
+       - name: "EMB-CPP-412"
+         enabled: false
+#        ruleName: "MISRA-C2012-21.12"
+       - name: "EMB-CPP-413"
+         enabled: false
+#        ruleName: "MISRA-C2012-22.5"
+       - name: "EMB-CPP-414"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-2-13-3"
+       - name: "EMB-CPP-415"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-4-10-2"
+       - name: "EMB-CPP-416"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-6-4-1"
+       - name: "EMB-CPP-417"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-6-4-2"
+       - name: "EMB-CPP-418"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-6-4-4"
+       - name: "EMB-CPP-419"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-9-5-1"
+       - name: "EMB-CPP-420"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-10-3-2"
+       - name: "EMB-CPP-421"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-10-3-3"
+       - name: "EMB-CPP-422"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-11-0-1"
+       - name: "EMB-CPP-423"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-12-8-2"
+       - name: "EMB-CPP-424"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-15-5-1"
+       - name: "EMB-CPP-425"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-16-3-1"
+       - name: "EMB-CPP-426"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-16-3-2"
+       - name: "EMB-CPP-427"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-17-0-1"
+       - name: "EMB-CPP-428"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-17-0-5"
+       - name: "EMB-CPP-429"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-18-0-1"
+       - name: "EMB-CPP-430"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-18-0-2"
+       - name: "EMB-CPP-431"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-18-0-3"
+       - name: "EMB-CPP-432"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-18-0-4"
+       - name: "EMB-CPP-433"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-18-0-5"
+       - name: "EMB-CPP-434"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-18-2-1"
+       - name: "EMB-CPP-435"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-18-4-1"
+       - name: "EMB-CPP-436"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-18-7-1"
+       - name: "EMB-CPP-437"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-19-3-1"
+       - name: "EMB-CPP-438"
+         enabled: false
+#        ruleName: "MISRA-CPP2008-27-0-1"
+       - name: "EMB-CPP-439"
+         enabled: false
+#        ruleName: "MISRA-1.1-multichar"
+       - name: "EMB-CPP-470"
+         enabled: true
+#        ruleName: "MISRA-1.1-unknown-pragmas"
+       - name: "EMB-CPP-479"
+         enabled: true
+#        ruleName: "MISRA-1.1-shift-negative-value"
+       - name: "EMB-CPP-483"
+         enabled: true
+#        ruleName: "MISRA-C2012-14.3"
+       - name: "EMB-CPP-543"
+         enabled: false
+#        ruleName: "MISRA-C2012-18.3"
+       - name: "EMB-CPP-544"
+         enabled: false
+#        ruleName: "MISRA-C2012-1.2"
+       - name: "EMB-CPP-545"
+         enabled: false
+#        ruleName: "MISRA-C2012-2.5"
+       - name: "EMB-CPP-546"
+         enabled: false
+#        ruleName: "MISRA-C2012-16.1"
+       - name: "EMB-CPP-547"
+         enabled: false
+#        ruleName: "MISRA-C2012-10.7"
+       - name: "EMB-CPP-548"
+         enabled: false
+#        ruleName: "MISRA-C2012-2.3"
+       - name: "EMB-CPP-549"
+         enabled: false
+#        ruleName: "MISRA-C2012-10.1"
+       - name: "EMB-CPP-550"
+         enabled: false
+#        ruleName: "MISRA-C2012-10.3"
+       - name: "EMB-CPP-551"
+         enabled: false
+#        ruleName: "MISRA-C2012-9.2"
+       - name: "EMB-CPP-552"
+         enabled: false
+#        ruleName: "MISRA-C2012-20.9"
+       - name: "EMB-CPP-553"
+         enabled: false
+#        ruleName: "MISRA-C2012-5.8"
+       - name: "EMB-CPP-554"
+         enabled: false
+#        ruleName: "MISRA-C2012-20.6"
+       - name: "EMB-CPP-555"
+         enabled: false
+#        ruleName: "MISRA-1.1-multichar"
+       - name: "EMB-CPP-557"
+         enabled: true
+#        ruleName: "MISRA-1.1-unknown-pragmas"
+       - name: "EMB-CPP-558"
+         enabled: true
+#        ruleName: "MISRA-1.1-shift-negative-value"
+       - name: "EMB-CPP-559"
+         enabled: true
+#        ruleName: "MISRA-1.1-duplicate-decl-specifier"
+       - name: "EMB-CPP-560"
+         enabled: true
+#        ruleName: "MISRA-C2012-21.21"
+       - name: "EMB-CPP-652"
+         enabled: true
+#        ruleName: "MISRA-C2012-12.5"
+       - name: "EMB-CPP-653"
+         enabled: true
