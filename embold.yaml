@@ -37,1686 +37,1686 @@ modules:
     - name: gamma_cxx
       enabled: true
       rules:
-#       - ruleName: "bzero.insecureAPI.security"
-         name: "EMB-CPP-1"
+##      - ruleName: "bzero.insecureAPI.security"
+       - name: "EMB-CPP-1"
          enabled: true
-#       - ruleName: "bcopy.insecureAPI.security"
-         name: "EMB-CPP-2"
+##      - ruleName: "bcopy.insecureAPI.security"
+       - name: "EMB-CPP-2"
          enabled: true
-#       - ruleName: "bcmp.insecureAPI.security"
-         name: "EMB-CPP-3"
+##      - ruleName: "bcmp.insecureAPI.security"
+       - name: "EMB-CPP-3"
          enabled: true
-#       - ruleName: "DeprecatedOrUnsafeBufferHandling.insecureAPI.security"
-         name: "EMB-CPP-4"
+##      - ruleName: "DeprecatedOrUnsafeBufferHandling.insecureAPI.security"
+       - name: "EMB-CPP-4"
          enabled: true
-#       - ruleName: "RunLoopAutoreleaseLeak.cocoa.osx"
-         name: "EMB-CPP-5"
+##      - ruleName: "RunLoopAutoreleaseLeak.cocoa.osx"
+       - name: "EMB-CPP-5"
          enabled: true
-#       - ruleName: "AutoreleaseWrite.cocoa.osx"
-         name: "EMB-CPP-6"
+##      - ruleName: "AutoreleaseWrite.cocoa.osx"
+       - name: "EMB-CPP-6"
          enabled: true
-#       - ruleName: "OSObjectRetainCount.osx"
-         name: "EMB-CPP-7"
+##      - ruleName: "OSObjectRetainCount.osx"
+       - name: "EMB-CPP-7"
          enabled: true
-#       - ruleName: "MIG.osx"
-         name: "EMB-CPP-8"
+##      - ruleName: "MIG.osx"
+       - name: "EMB-CPP-8"
          enabled: true
-#       - ruleName: "GCDAntipattern.performance.optin"
-         name: "EMB-CPP-9"
+##      - ruleName: "GCDAntipattern.performance.optin"
+       - name: "EMB-CPP-9"
          enabled: true
-#       - ruleName: "OSObjectCStyleCast.osx.optin"
-         name: "EMB-CPP-10"
+##      - ruleName: "OSObjectCStyleCast.osx.optin"
+       - name: "EMB-CPP-10"
          enabled: true
-#       - ruleName: "UninitializedObject.cplusplus.optin"
-         name: "EMB-CPP-11"
+##      - ruleName: "UninitializedObject.cplusplus.optin"
+       - name: "EMB-CPP-11"
          enabled: true
-#       - ruleName: "Move.cplusplus"
-         name: "EMB-CPP-12"
+##      - ruleName: "Move.cplusplus"
+       - name: "EMB-CPP-12"
          enabled: true
-#       - ruleName: "StackAddrEscapeBase.core"
-         name: "EMB-CPP-13"
+##      - ruleName: "StackAddrEscapeBase.core"
+       - name: "EMB-CPP-13"
          enabled: true
-#       - ruleName: "InnerPointer.cplusplus"
-         name: "EMB-CPP-14"
+##      - ruleName: "InnerPointer.cplusplus"
+       - name: "EMB-CPP-14"
          enabled: true
-#       - ruleName: "CallAndMessage.core"
-         name: "EMB-CPP-15"
+##      - ruleName: "CallAndMessage.core"
+       - name: "EMB-CPP-15"
          enabled: true
-#       - ruleName: "DivideZero.core"
-         name: "EMB-CPP-16"
+##      - ruleName: "DivideZero.core"
+       - name: "EMB-CPP-16"
          enabled: true
-#       - ruleName: "DynamicTypePropagation.core"
-         name: "EMB-CPP-17"
+##      - ruleName: "DynamicTypePropagation.core"
+       - name: "EMB-CPP-17"
          enabled: true
-#       - ruleName: "NonNullParamChecker.core"
-         name: "EMB-CPP-18"
+##      - ruleName: "NonNullParamChecker.core"
+       - name: "EMB-CPP-18"
          enabled: true
-#       - ruleName: "NonnilStringConstants.core"
-         name: "EMB-CPP-19"
+##      - ruleName: "NonnilStringConstants.core"
+       - name: "EMB-CPP-19"
          enabled: true
-#       - ruleName: "NullDereference.core"
-         name: "EMB-CPP-20"
+##      - ruleName: "NullDereference.core"
+       - name: "EMB-CPP-20"
          enabled: true
-#       - ruleName: "StackAddressEscape.core"
-         name: "EMB-CPP-21"
+##      - ruleName: "StackAddressEscape.core"
+       - name: "EMB-CPP-21"
          enabled: true
-#       - ruleName: "UndefinedBinaryOperatorResult.core"
-         name: "EMB-CPP-22"
+##      - ruleName: "UndefinedBinaryOperatorResult.core"
+       - name: "EMB-CPP-22"
          enabled: true
-#       - ruleName: "VLASize.core"
-         name: "EMB-CPP-23"
+##      - ruleName: "VLASize.core"
+       - name: "EMB-CPP-23"
          enabled: true
-#       - ruleName: "BuiltinFunctions.builtin.core"
-         name: "EMB-CPP-24"
+##      - ruleName: "BuiltinFunctions.builtin.core"
+       - name: "EMB-CPP-24"
          enabled: true
-#       - ruleName: "NoReturnFunctions.builtin.core"
-         name: "EMB-CPP-25"
+##      - ruleName: "NoReturnFunctions.builtin.core"
+       - name: "EMB-CPP-25"
          enabled: true
-#       - ruleName: "ArraySubscript.uninitialized.core"
-         name: "EMB-CPP-26"
+##      - ruleName: "ArraySubscript.uninitialized.core"
+       - name: "EMB-CPP-26"
          enabled: true
-#       - ruleName: "Assign.uninitialized.core"
-         name: "EMB-CPP-27"
+##      - ruleName: "Assign.uninitialized.core"
+       - name: "EMB-CPP-27"
          enabled: true
-#       - ruleName: "Branch.uninitialized.core"
-         name: "EMB-CPP-28"
+##      - ruleName: "Branch.uninitialized.core"
+       - name: "EMB-CPP-28"
          enabled: true
-#       - ruleName: "CapturedBlockVariable.uninitialized.core"
-         name: "EMB-CPP-29"
+##      - ruleName: "CapturedBlockVariable.uninitialized.core"
+       - name: "EMB-CPP-29"
          enabled: true
-#       - ruleName: "UndefReturn.uninitialized.core"
-         name: "EMB-CPP-30"
+##      - ruleName: "UndefReturn.uninitialized.core"
+       - name: "EMB-CPP-30"
          enabled: true
-#       - ruleName: "NewDelete.cplusplus"
-         name: "EMB-CPP-31"
+##      - ruleName: "NewDelete.cplusplus"
+       - name: "EMB-CPP-31"
          enabled: true
-#       - ruleName: "NewDeleteLeaks.cplusplus"
-         name: "EMB-CPP-32"
+##      - ruleName: "NewDeleteLeaks.cplusplus"
+       - name: "EMB-CPP-32"
          enabled: true
-#       - ruleName: "SelfAssignment.cplusplus"
-         name: "EMB-CPP-33"
+##      - ruleName: "SelfAssignment.cplusplus"
+       - name: "EMB-CPP-33"
          enabled: true
-#       - ruleName: "DeadStores.deadcode"
-         name: "EMB-CPP-34"
+##      - ruleName: "DeadStores.deadcode"
+       - name: "EMB-CPP-34"
          enabled: true
-#       - ruleName: "NullPassedToNonnull.nullability"
-         name: "EMB-CPP-35"
+##      - ruleName: "NullPassedToNonnull.nullability"
+       - name: "EMB-CPP-35"
          enabled: true
-#       - ruleName: "NullReturnedFromNonnull.nullability"
-         name: "EMB-CPP-36"
+##      - ruleName: "NullReturnedFromNonnull.nullability"
+       - name: "EMB-CPP-36"
          enabled: true
-#       - ruleName: "NullableDereferenced.nullability"
-         name: "EMB-CPP-37"
+##      - ruleName: "NullableDereferenced.nullability"
+       - name: "EMB-CPP-37"
          enabled: true
-#       - ruleName: "NullablePassedToNonnull.nullability"
-         name: "EMB-CPP-38"
+##      - ruleName: "NullablePassedToNonnull.nullability"
+       - name: "EMB-CPP-38"
          enabled: true
-#       - ruleName: "NullableReturnedFromNonnull.nullability"
-         name: "EMB-CPP-39"
+##      - ruleName: "NullableReturnedFromNonnull.nullability"
+       - name: "EMB-CPP-39"
          enabled: true
-#       - ruleName: "VirtualCall.cplusplus.optin"
-         name: "EMB-CPP-40"
+##      - ruleName: "VirtualCall.cplusplus.optin"
+       - name: "EMB-CPP-40"
          enabled: true
-#       - ruleName: "MPI-Checker.mpi.optin"
-         name: "EMB-CPP-41"
+##      - ruleName: "MPI-Checker.mpi.optin"
+       - name: "EMB-CPP-41"
          enabled: true
-#       - ruleName: "EmptyLocalizationContextChecker.localizability.cocoa.osx.optin"
-         name: "EMB-CPP-42"
+##      - ruleName: "EmptyLocalizationContextChecker.localizability.cocoa.osx.optin"
+       - name: "EMB-CPP-42"
          enabled: true
-#       - ruleName: "NonLocalizedStringChecker.localizability.cocoa.osx.optin"
-         name: "EMB-CPP-43"
+##      - ruleName: "NonLocalizedStringChecker.localizability.cocoa.osx.optin"
+       - name: "EMB-CPP-43"
          enabled: true
-#       - ruleName: "Padding.performance.optin"
-         name: "EMB-CPP-44"
+##      - ruleName: "Padding.performance.optin"
+       - name: "EMB-CPP-44"
          enabled: false
-#       - ruleName: "UnixAPI.portability.optin"
-         name: "EMB-CPP-45"
+##      - ruleName: "UnixAPI.portability.optin"
+       - name: "EMB-CPP-45"
          enabled: false
-#       - ruleName: "API.osx"
-         name: "EMB-CPP-46"
+##      - ruleName: "API.osx"
+       - name: "EMB-CPP-46"
          enabled: false
-#       - ruleName: "NumberObjectConversion.osx"
-         name: "EMB-CPP-47"
+##      - ruleName: "NumberObjectConversion.osx"
+       - name: "EMB-CPP-47"
          enabled: true
-#       - ruleName: "ObjCProperty.osx"
-         name: "EMB-CPP-48"
+##      - ruleName: "ObjCProperty.osx"
+       - name: "EMB-CPP-48"
          enabled: true
-#       - ruleName: "SecKeychainAPI.osx"
-         name: "EMB-CPP-49"
+##      - ruleName: "SecKeychainAPI.osx"
+       - name: "EMB-CPP-49"
          enabled: true
-#       - ruleName: "AtSync.cocoa.osx"
-         name: "EMB-CPP-50"
+##      - ruleName: "AtSync.cocoa.osx"
+       - name: "EMB-CPP-50"
          enabled: true
-#       - ruleName: "ClassRelease.cocoa.osx"
-         name: "EMB-CPP-51"
+##      - ruleName: "ClassRelease.cocoa.osx"
+       - name: "EMB-CPP-51"
          enabled: false
-#       - ruleName: "Dealloc.cocoa.osx"
-         name: "EMB-CPP-52"
+##      - ruleName: "Dealloc.cocoa.osx"
+       - name: "EMB-CPP-52"
          enabled: true
-#       - ruleName: "IncompatibleMethodTypes.cocoa.osx"
-         name: "EMB-CPP-53"
+##      - ruleName: "IncompatibleMethodTypes.cocoa.osx"
+       - name: "EMB-CPP-53"
          enabled: true
-#       - ruleName: "Loops.cocoa.osx"
-         name: "EMB-CPP-54"
+##      - ruleName: "Loops.cocoa.osx"
+       - name: "EMB-CPP-54"
          enabled: false
-#       - ruleName: "MissingSuperCall.cocoa.osx"
-         name: "EMB-CPP-55"
+##      - ruleName: "MissingSuperCall.cocoa.osx"
+       - name: "EMB-CPP-55"
          enabled: true
-#       - ruleName: "NSAutoreleasePool.cocoa.osx"
-         name: "EMB-CPP-56"
+##      - ruleName: "NSAutoreleasePool.cocoa.osx"
+       - name: "EMB-CPP-56"
          enabled: true
-#       - ruleName: "NSError.cocoa.osx"
-         name: "EMB-CPP-57"
+##      - ruleName: "NSError.cocoa.osx"
+       - name: "EMB-CPP-57"
          enabled: true
-#       - ruleName: "NilArg.cocoa.osx"
-         name: "EMB-CPP-58"
+##      - ruleName: "NilArg.cocoa.osx"
+       - name: "EMB-CPP-58"
          enabled: true
-#       - ruleName: "NonNilReturnValue.cocoa.osx"
-         name: "EMB-CPP-59"
+##      - ruleName: "NonNilReturnValue.cocoa.osx"
+       - name: "EMB-CPP-59"
          enabled: true
-#       - ruleName: "ObjCGenerics.cocoa.osx"
-         name: "EMB-CPP-60"
+##      - ruleName: "ObjCGenerics.cocoa.osx"
+       - name: "EMB-CPP-60"
          enabled: true
-#       - ruleName: "RetainCount.cocoa.osx"
-         name: "EMB-CPP-61"
+##      - ruleName: "RetainCount.cocoa.osx"
+       - name: "EMB-CPP-61"
          enabled: true
-#       - ruleName: "SelfInit.cocoa.osx"
-         name: "EMB-CPP-62"
+##      - ruleName: "SelfInit.cocoa.osx"
+       - name: "EMB-CPP-62"
          enabled: true
-#       - ruleName: "SuperDealloc.cocoa.osx"
-         name: "EMB-CPP-63"
+##      - ruleName: "SuperDealloc.cocoa.osx"
+       - name: "EMB-CPP-63"
          enabled: true
-#       - ruleName: "UnusedIvars.cocoa.osx"
-         name: "EMB-CPP-64"
+##      - ruleName: "UnusedIvars.cocoa.osx"
+       - name: "EMB-CPP-64"
          enabled: false
-#       - ruleName: "VariadicMethodTypes.cocoa.osx"
-         name: "EMB-CPP-65"
+##      - ruleName: "VariadicMethodTypes.cocoa.osx"
+       - name: "EMB-CPP-65"
          enabled: true
-#       - ruleName: "CFError.coreFoundation.osx"
-         name: "EMB-CPP-66"
+##      - ruleName: "CFError.coreFoundation.osx"
+       - name: "EMB-CPP-66"
          enabled: true
-#       - ruleName: "CFNumber.coreFoundation.osx"
-         name: "EMB-CPP-67"
+##      - ruleName: "CFNumber.coreFoundation.osx"
+       - name: "EMB-CPP-67"
          enabled: true
-#       - ruleName: "CFRetainRelease.coreFoundation.osx"
-         name: "EMB-CPP-68"
+##      - ruleName: "CFRetainRelease.coreFoundation.osx"
+       - name: "EMB-CPP-68"
          enabled: true
-#       - ruleName: "OutOfBounds.containers.coreFoundation.osx"
-         name: "EMB-CPP-69"
+##      - ruleName: "OutOfBounds.containers.coreFoundation.osx"
+       - name: "EMB-CPP-69"
          enabled: true
-#       - ruleName: "PointerSizedValues.containers.coreFoundation.osx"
-         name: "EMB-CPP-70"
+##      - ruleName: "PointerSizedValues.containers.coreFoundation.osx"
+       - name: "EMB-CPP-70"
          enabled: true
-#       - ruleName: "FloatLoopCounter.security"
-         name: "EMB-CPP-71"
+##      - ruleName: "FloatLoopCounter.security"
+       - name: "EMB-CPP-71"
          enabled: true
-#       - ruleName: "UncheckedReturn.insecureAPI.security"
-         name: "EMB-CPP-72"
+##      - ruleName: "UncheckedReturn.insecureAPI.security"
+       - name: "EMB-CPP-72"
          enabled: true
-#       - ruleName: "getpw.insecureAPI.security"
-         name: "EMB-CPP-73"
+##      - ruleName: "getpw.insecureAPI.security"
+       - name: "EMB-CPP-73"
          enabled: true
-#       - ruleName: "gets.insecureAPI.security"
-         name: "EMB-CPP-74"
+##      - ruleName: "gets.insecureAPI.security"
+       - name: "EMB-CPP-74"
          enabled: true
-#       - ruleName: "mkstemp.insecureAPI.security"
-         name: "EMB-CPP-75"
+##      - ruleName: "mkstemp.insecureAPI.security"
+       - name: "EMB-CPP-75"
          enabled: true
-#       - ruleName: "mktemp.insecureAPI.security"
-         name: "EMB-CPP-76"
+##      - ruleName: "mktemp.insecureAPI.security"
+       - name: "EMB-CPP-76"
          enabled: true
-#       - ruleName: "rand.insecureAPI.security"
-         name: "EMB-CPP-77"
+##      - ruleName: "rand.insecureAPI.security"
+       - name: "EMB-CPP-77"
          enabled: true
-#       - ruleName: "strcpy.insecureAPI.security"
-         name: "EMB-CPP-78"
+##      - ruleName: "strcpy.insecureAPI.security"
+       - name: "EMB-CPP-78"
          enabled: true
-#       - ruleName: "vfork.insecureAPI.security"
-         name: "EMB-CPP-79"
+##      - ruleName: "vfork.insecureAPI.security"
+       - name: "EMB-CPP-79"
          enabled: true
-#       - ruleName: "API.unix"
-         name: "EMB-CPP-80"
+##      - ruleName: "API.unix"
+       - name: "EMB-CPP-80"
          enabled: true
-#       - ruleName: "Malloc.unix"
-         name: "EMB-CPP-81"
+##      - ruleName: "Malloc.unix"
+       - name: "EMB-CPP-81"
          enabled: true
-#       - ruleName: "MallocSizeof.unix"
-         name: "EMB-CPP-82"
+##      - ruleName: "MallocSizeof.unix"
+       - name: "EMB-CPP-82"
          enabled: true
-#       - ruleName: "MismatchedDeallocator.unix"
-         name: "EMB-CPP-83"
+##      - ruleName: "MismatchedDeallocator.unix"
+       - name: "EMB-CPP-83"
          enabled: true
-#       - ruleName: "Vfork.unix"
-         name: "EMB-CPP-84"
+##      - ruleName: "Vfork.unix"
+       - name: "EMB-CPP-84"
          enabled: true
-#       - ruleName: "BadSizeArg.cstring.unix"
-         name: "EMB-CPP-85"
+##      - ruleName: "BadSizeArg.cstring.unix"
+       - name: "EMB-CPP-85"
          enabled: true
-#       - ruleName: "NullArg.cstring.unix"
-         name: "EMB-CPP-86"
+##      - ruleName: "NullArg.cstring.unix"
+       - name: "EMB-CPP-86"
          enabled: true
-#       - ruleName: "CopyToSelf.valist"
-         name: "EMB-CPP-87"
+##      - ruleName: "CopyToSelf.valist"
+       - name: "EMB-CPP-87"
          enabled: false
-#       - ruleName: "Uninitialized.valist"
-         name: "EMB-CPP-88"
+##      - ruleName: "Uninitialized.valist"
+       - name: "EMB-CPP-88"
          enabled: false
-#       - ruleName: "Unterminated.valist"
-         name: "EMB-CPP-89"
+##      - ruleName: "Unterminated.valist"
+       - name: "EMB-CPP-89"
          enabled: false
-#       - ruleName: "DirectIvarAssignment.cocoa.osx.alphat"
-         name: "EMB-CPP-90"
+##      - ruleName: "DirectIvarAssignment.cocoa.osx.alphat"
+       - name: "EMB-CPP-90"
          enabled: false
-#       - ruleName: "performance-unnecessary-copy-initialization"
-         name: "EMB-CPP-91"
+##      - ruleName: "performance-unnecessary-copy-initialization"
+       - name: "EMB-CPP-91"
          enabled: true
-#       - ruleName: "performance-faster-string-find"
-         name: "EMB-CPP-92"
+##      - ruleName: "performance-faster-string-find"
+       - name: "EMB-CPP-92"
          enabled: true
-#       - ruleName: "performance-for-range-copy"
-         name: "EMB-CPP-93"
+##      - ruleName: "performance-for-range-copy"
+       - name: "EMB-CPP-93"
          enabled: true
-#       - ruleName: "performance-implicit-conversion-in-loop"
-         name: "EMB-CPP-94"
+##      - ruleName: "performance-implicit-conversion-in-loop"
+       - name: "EMB-CPP-94"
          enabled: true
-#       - ruleName: "performance-inefficient-algorithm"
-         name: "EMB-CPP-95"
+##      - ruleName: "performance-inefficient-algorithm"
+       - name: "EMB-CPP-95"
          enabled: true
-#       - ruleName: "performance-inefficient-string-concatenation"
-         name: "EMB-CPP-96"
+##      - ruleName: "performance-inefficient-string-concatenation"
+       - name: "EMB-CPP-96"
          enabled: true
-#       - ruleName: "performance-inefficient-vector-operation"
-         name: "EMB-CPP-97"
+##      - ruleName: "performance-inefficient-vector-operation"
+       - name: "EMB-CPP-97"
          enabled: true
-#       - ruleName: "performance-move-const-arg"
-         name: "EMB-CPP-98"
+##      - ruleName: "performance-move-const-arg"
+       - name: "EMB-CPP-98"
          enabled: true
-#       - ruleName: "performance-move-constructor-init"
-         name: "EMB-CPP-99"
+##      - ruleName: "performance-move-constructor-init"
+       - name: "EMB-CPP-99"
          enabled: true
-#       - ruleName: "performance-noexcept-move-constructor"
-         name: "EMB-CPP-100"
+##      - ruleName: "performance-noexcept-move-constructor"
+       - name: "EMB-CPP-100"
          enabled: true
-#       - ruleName: "performance-type-promotion-in-math-fn"
-         name: "EMB-CPP-101"
+##      - ruleName: "performance-type-promotion-in-math-fn"
+       - name: "EMB-CPP-101"
          enabled: true
-#       - ruleName: "performance-unnecessary-value-param"
-         name: "EMB-CPP-102"
+##      - ruleName: "performance-unnecessary-value-param"
+       - name: "EMB-CPP-102"
          enabled: true
-#       - ruleName: "misc-non-private-member-variables-in-classes"
-         name: "EMB-CPP-103"
+##      - ruleName: "misc-non-private-member-variables-in-classes"
+       - name: "EMB-CPP-103"
          enabled: false
-#       - ruleName: "misc-definitions-in-headers"
-         name: "EMB-CPP-104"
+##      - ruleName: "misc-definitions-in-headers"
+       - name: "EMB-CPP-104"
          enabled: true
-#       - ruleName: "misc-forwarding-reference-overload"
-         name: "EMB-CPP-105"
+##      - ruleName: "misc-forwarding-reference-overload"
+       - name: "EMB-CPP-105"
          enabled: true
-#       - ruleName: "misc-incorrect-roundings"
-         name: "EMB-CPP-106"
+##      - ruleName: "misc-incorrect-roundings"
+       - name: "EMB-CPP-106"
          enabled: true
-#       - ruleName: "misc-lambda-function-name"
-         name: "EMB-CPP-107"
+##      - ruleName: "misc-lambda-function-name"
+       - name: "EMB-CPP-107"
          enabled: true
-#       - ruleName: "misc-macro-parentheses"
-         name: "EMB-CPP-108"
+##      - ruleName: "misc-macro-parentheses"
+       - name: "EMB-CPP-108"
          enabled: true
-#       - ruleName: "misc-macro-repeated-side-effects"
-         name: "EMB-CPP-109"
+##      - ruleName: "misc-macro-repeated-side-effects"
+       - name: "EMB-CPP-109"
          enabled: true
-#       - ruleName: "misc-misplaced-const"
-         name: "EMB-CPP-110"
+##      - ruleName: "misc-misplaced-const"
+       - name: "EMB-CPP-110"
          enabled: true
-#       - ruleName: "misc-misplaced-widening-cast"
-         name: "EMB-CPP-111"
+##      - ruleName: "misc-misplaced-widening-cast"
+       - name: "EMB-CPP-111"
          enabled: true
-#       - ruleName: "misc-new-delete-overloads"
-         name: "EMB-CPP-112"
+##      - ruleName: "misc-new-delete-overloads"
+       - name: "EMB-CPP-112"
          enabled: true
-#       - ruleName: "misc-non-copyable-objects"
-         name: "EMB-CPP-113"
+##      - ruleName: "misc-non-copyable-objects"
+       - name: "EMB-CPP-113"
          enabled: true
-#       - ruleName: "misc-redundant-expression"
-         name: "EMB-CPP-114"
+##      - ruleName: "misc-redundant-expression"
+       - name: "EMB-CPP-114"
          enabled: true
-#       - ruleName: "misc-sizeof-container"
-         name: "EMB-CPP-115"
+##      - ruleName: "misc-sizeof-container"
+       - name: "EMB-CPP-115"
          enabled: true
-#       - ruleName: "misc-sizeof-expression"
-         name: "EMB-CPP-116"
+##      - ruleName: "misc-sizeof-expression"
+       - name: "EMB-CPP-116"
          enabled: true
-#       - ruleName: "misc-static-assert"
-         name: "EMB-CPP-117"
+##      - ruleName: "misc-static-assert"
+       - name: "EMB-CPP-117"
          enabled: true
-#       - ruleName: "misc-string-compare"
-         name: "EMB-CPP-118"
+##      - ruleName: "misc-string-compare"
+       - name: "EMB-CPP-118"
          enabled: true
-#       - ruleName: "misc-string-integer-assignment"
-         name: "EMB-CPP-119"
+##      - ruleName: "misc-string-integer-assignment"
+       - name: "EMB-CPP-119"
          enabled: false
-#       - ruleName: "misc-string-literal-with-embedded-nul"
-         name: "EMB-CPP-120"
+##      - ruleName: "misc-string-literal-with-embedded-nul"
+       - name: "EMB-CPP-120"
          enabled: true
-#       - ruleName: "misc-suspicious-enum-usage"
-         name: "EMB-CPP-121"
+##      - ruleName: "misc-suspicious-enum-usage"
+       - name: "EMB-CPP-121"
          enabled: true
-#       - ruleName: "misc-suspicious-missing-comma"
-         name: "EMB-CPP-122"
+##      - ruleName: "misc-suspicious-missing-comma"
+       - name: "EMB-CPP-122"
          enabled: true
-#       - ruleName: "misc-suspicious-semicolon"
-         name: "EMB-CPP-123"
+##      - ruleName: "misc-suspicious-semicolon"
+       - name: "EMB-CPP-123"
          enabled: true
-#       - ruleName: "misc-suspicious-string-compare"
-         name: "EMB-CPP-124"
+##      - ruleName: "misc-suspicious-string-compare"
+       - name: "EMB-CPP-124"
          enabled: true
-#       - ruleName: "misc-swapped-arguments"
-         name: "EMB-CPP-125"
+##      - ruleName: "misc-swapped-arguments"
+       - name: "EMB-CPP-125"
          enabled: true
-#       - ruleName: "misc-throw-by-value-catch-by-reference"
-         name: "EMB-CPP-126"
+##      - ruleName: "misc-throw-by-value-catch-by-reference"
+       - name: "EMB-CPP-126"
          enabled: true
-#       - ruleName: "misc-unconventional-assign-operator"
-         name: "EMB-CPP-127"
+##      - ruleName: "misc-unconventional-assign-operator"
+       - name: "EMB-CPP-127"
          enabled: true
-#       - ruleName: "misc-undelegated-constructor"
-         name: "EMB-CPP-128"
+##      - ruleName: "misc-undelegated-constructor"
+       - name: "EMB-CPP-128"
          enabled: true
-#       - ruleName: "misc-uniqueptr-reset-release"
-         name: "EMB-CPP-129"
+##      - ruleName: "misc-uniqueptr-reset-release"
+       - name: "EMB-CPP-129"
          enabled: true
-#       - ruleName: "misc-unused-alias-decls"
-         name: "EMB-CPP-130"
+##      - ruleName: "misc-unused-alias-decls"
+       - name: "EMB-CPP-130"
          enabled: true
-#       - ruleName: "misc-unused-parameters"
-         name: "EMB-CPP-131"
+##      - ruleName: "misc-unused-parameters"
+       - name: "EMB-CPP-131"
          enabled: false
-#       - ruleName: "misc-unused-raii"
-         name: "EMB-CPP-132"
+##      - ruleName: "misc-unused-raii"
+       - name: "EMB-CPP-132"
          enabled: false
-#       - ruleName: "misc-unused-using-decls"
-         name: "EMB-CPP-133"
+##      - ruleName: "misc-unused-using-decls"
+       - name: "EMB-CPP-133"
          enabled: true
-#       - ruleName: "cert-dcl03-c"
-         name: "EMB-CPP-134"
+##      - ruleName: "cert-dcl03-c"
+       - name: "EMB-CPP-134"
          enabled: false
-#       - ruleName: "cert-dcl16-c"
-         name: "EMB-CPP-135"
+##      - ruleName: "cert-dcl16-c"
+       - name: "EMB-CPP-135"
          enabled: false
-#       - ruleName: "cert-dcl21-cpp"
-         name: "EMB-CPP-136"
+##      - ruleName: "cert-dcl21-cpp"
+       - name: "EMB-CPP-136"
          enabled: true
-#       - ruleName: "cert-dcl50-cpp"
-         name: "EMB-CPP-137"
+##      - ruleName: "cert-dcl50-cpp"
+       - name: "EMB-CPP-137"
          enabled: true
-#       - ruleName: "cert-dcl54-cpp"
-         name: "EMB-CPP-138"
+##      - ruleName: "cert-dcl54-cpp"
+       - name: "EMB-CPP-138"
          enabled: true
-#       - ruleName: "cert-dcl58-cpp"
-         name: "EMB-CPP-139"
+##      - ruleName: "cert-dcl58-cpp"
+       - name: "EMB-CPP-139"
          enabled: true
-#       - ruleName: "cert-dcl59-cpp"
-         name: "EMB-CPP-140"
+##      - ruleName: "cert-dcl59-cpp"
+       - name: "EMB-CPP-140"
          enabled: true
-#       - ruleName: "cert-env33-c"
-         name: "EMB-CPP-141"
+##      - ruleName: "cert-env33-c"
+       - name: "EMB-CPP-141"
          enabled: true
-#       - ruleName: "cert-err09-cpp"
-         name: "EMB-CPP-142"
+##      - ruleName: "cert-err09-cpp"
+       - name: "EMB-CPP-142"
          enabled: true
-#       - ruleName: "cert-err34-c"
-         name: "EMB-CPP-143"
+##      - ruleName: "cert-err34-c"
+       - name: "EMB-CPP-143"
          enabled: true
-#       - ruleName: "cert-err52-cpp"
-         name: "EMB-CPP-144"
+##      - ruleName: "cert-err52-cpp"
+       - name: "EMB-CPP-144"
          enabled: true
-#       - ruleName: "cert-err58-cpp"
-         name: "EMB-CPP-145"
+##      - ruleName: "cert-err58-cpp"
+       - name: "EMB-CPP-145"
          enabled: false
-#       - ruleName: "cert-err60-cpp"
-         name: "EMB-CPP-146"
+##      - ruleName: "cert-err60-cpp"
+       - name: "EMB-CPP-146"
          enabled: true
-#       - ruleName: "cert-err61-cpp"
-         name: "EMB-CPP-147"
+##      - ruleName: "cert-err61-cpp"
+       - name: "EMB-CPP-147"
          enabled: true
-#       - ruleName: "cert-fio38-c"
-         name: "EMB-CPP-148"
+##      - ruleName: "cert-fio38-c"
+       - name: "EMB-CPP-148"
          enabled: true
-#       - ruleName: "cert-flp30-c"
-         name: "EMB-CPP-149"
+##      - ruleName: "cert-flp30-c"
+       - name: "EMB-CPP-149"
          enabled: true
-#       - ruleName: "cert-msc30-c"
-         name: "EMB-CPP-150"
+##      - ruleName: "cert-msc30-c"
+       - name: "EMB-CPP-150"
          enabled: true
-#       - ruleName: "cert-msc50-cpp"
-         name: "EMB-CPP-151"
+##      - ruleName: "cert-msc50-cpp"
+       - name: "EMB-CPP-151"
          enabled: true
-#       - ruleName: "cert-msc51-cpp"
-         name: "EMB-CPP-152"
+##      - ruleName: "cert-msc51-cpp"
+       - name: "EMB-CPP-152"
          enabled: true
-#       - ruleName: "cert-msc32-c"
-         name: "EMB-CPP-153"
+##      - ruleName: "cert-msc32-c"
+       - name: "EMB-CPP-153"
          enabled: false
-#       - ruleName: "cert-oop11-cpp"
-         name: "EMB-CPP-154"
+##      - ruleName: "cert-oop11-cpp"
+       - name: "EMB-CPP-154"
          enabled: true
-#       - ruleName: "cert-oop54-cpp"
-         name: "EMB-CPP-155"
+##      - ruleName: "cert-oop54-cpp"
+       - name: "EMB-CPP-155"
          enabled: true
-#       - ruleName: "hicpp-multiway-paths-covered"
-         name: "EMB-CPP-156"
+##      - ruleName: "hicpp-multiway-paths-covered"
+       - name: "EMB-CPP-156"
          enabled: true
-#       - ruleName: "hicpp-avoid-goto"
-         name: "EMB-CPP-157"
+##      - ruleName: "hicpp-avoid-goto"
+       - name: "EMB-CPP-157"
          enabled: true
-#       - ruleName: "hicpp-avoid-c-arrays"
-         name: "EMB-CPP-158"
+##      - ruleName: "hicpp-avoid-c-arrays"
+       - name: "EMB-CPP-158"
          enabled: true
-#       - ruleName: "hicpp-braces-around-statements"
-         name: "EMB-CPP-159"
+##      - ruleName: "hicpp-braces-around-statements"
+       - name: "EMB-CPP-159"
          enabled: false
-#       - ruleName: "hicpp-deprecated-headers"
-         name: "EMB-CPP-160"
+##      - ruleName: "hicpp-deprecated-headers"
+       - name: "EMB-CPP-160"
          enabled: true
-#       - ruleName: "hicpp-exception-baseclass"
-         name: "EMB-CPP-161"
+##      - ruleName: "hicpp-exception-baseclass"
+       - name: "EMB-CPP-161"
          enabled: true
-#       - ruleName: "hicpp-explicit-conversions"
-         name: "EMB-CPP-162"
+##      - ruleName: "hicpp-explicit-conversions"
+       - name: "EMB-CPP-162"
          enabled: true
-#       - ruleName: "hicpp-function-size"
-         name: "EMB-CPP-163"
+##      - ruleName: "hicpp-function-size"
+       - name: "EMB-CPP-163"
          enabled: false
-#       - ruleName: "hicpp-invalid-access-moved"
-         name: "EMB-CPP-164"
+##      - ruleName: "hicpp-invalid-access-moved"
+       - name: "EMB-CPP-164"
          enabled: false
-#       - ruleName: "hicpp-member-init"
-         name: "EMB-CPP-165"
+##      - ruleName: "hicpp-member-init"
+       - name: "EMB-CPP-165"
          enabled: false
-#       - ruleName: "hicpp-move-const-arg"
-         name: "EMB-CPP-166"
+##      - ruleName: "hicpp-move-const-arg"
+       - name: "EMB-CPP-166"
          enabled: true
-#       - ruleName: "hicpp-named-parameter"
-         name: "EMB-CPP-167"
+##      - ruleName: "hicpp-named-parameter"
+       - name: "EMB-CPP-167"
          enabled: false
-#       - ruleName: "hicpp-new-delete-operators"
-         name: "EMB-CPP-168"
+##      - ruleName: "hicpp-new-delete-operators"
+       - name: "EMB-CPP-168"
          enabled: false
-#       - ruleName: "hicpp-no-array-decay"
-         name: "EMB-CPP-169"
+##      - ruleName: "hicpp-no-array-decay"
+       - name: "EMB-CPP-169"
          enabled: false
-#       - ruleName: "hicpp-no-assembler"
-         name: "EMB-CPP-170"
+##      - ruleName: "hicpp-no-assembler"
+       - name: "EMB-CPP-170"
          enabled: true
-#       - ruleName: "hicpp-no-malloc"
-         name: "EMB-CPP-171"
+##      - ruleName: "hicpp-no-malloc"
+       - name: "EMB-CPP-171"
          enabled: true
-#       - ruleName: "hicpp-noexcept-move"
-         name: "EMB-CPP-172"
+##      - ruleName: "hicpp-noexcept-move"
+       - name: "EMB-CPP-172"
          enabled: false
-#       - ruleName: "hicpp-signed-bitwise"
-         name: "EMB-CPP-173"
+##      - ruleName: "hicpp-signed-bitwise"
+       - name: "EMB-CPP-173"
          enabled: false
-#       - ruleName: "hicpp-special-member-functions"
-         name: "EMB-CPP-174"
+##      - ruleName: "hicpp-special-member-functions"
+       - name: "EMB-CPP-174"
          enabled: false
-#       - ruleName: "hicpp-static-assert"
-         name: "EMB-CPP-175"
+##      - ruleName: "hicpp-static-assert"
+       - name: "EMB-CPP-175"
          enabled: false
-#       - ruleName: "hicpp-undelegated-constructor"
-         name: "EMB-CPP-176"
+##      - ruleName: "hicpp-undelegated-constructor"
+       - name: "EMB-CPP-176"
          enabled: false
-#       - ruleName: "hicpp-use-auto"
-         name: "EMB-CPP-177"
+##      - ruleName: "hicpp-use-auto"
+       - name: "EMB-CPP-177"
          enabled: false
-#       - ruleName: "hicpp-use-emplace"
-         name: "EMB-CPP-178"
+##      - ruleName: "hicpp-use-emplace"
+       - name: "EMB-CPP-178"
          enabled: true
-#       - ruleName: "hicpp-use-equals-default"
-         name: "EMB-CPP-179"
+##      - ruleName: "hicpp-use-equals-default"
+       - name: "EMB-CPP-179"
          enabled: false
-#       - ruleName: "hicpp-use-equals-delete"
-         name: "EMB-CPP-180"
+##      - ruleName: "hicpp-use-equals-delete"
+       - name: "EMB-CPP-180"
          enabled: false
-#       - ruleName: "hicpp-use-noexcept"
-         name: "EMB-CPP-181"
+##      - ruleName: "hicpp-use-noexcept"
+       - name: "EMB-CPP-181"
          enabled: false
-#       - ruleName: "hicpp-use-nullptr"
-         name: "EMB-CPP-182"
+##      - ruleName: "hicpp-use-nullptr"
+       - name: "EMB-CPP-182"
          enabled: true
-#       - ruleName: "hicpp-use-override"
-         name: "EMB-CPP-183"
+##      - ruleName: "hicpp-use-override"
+       - name: "EMB-CPP-183"
          enabled: true
-#       - ruleName: "hicpp-vararg"
-         name: "EMB-CPP-184"
+##      - ruleName: "hicpp-vararg"
+       - name: "EMB-CPP-184"
          enabled: false
-#       - ruleName: "abseil-duration-comparison"
-         name: "EMB-CPP-185"
+##      - ruleName: "abseil-duration-comparison"
+       - name: "EMB-CPP-185"
          enabled: false
-#       - ruleName: "abseil-duration-conversion-cast"
-         name: "EMB-CPP-186"
+##      - ruleName: "abseil-duration-conversion-cast"
+       - name: "EMB-CPP-186"
          enabled: false
-#       - ruleName: "abseil-duration-addition"
-         name: "EMB-CPP-187"
+##      - ruleName: "abseil-duration-addition"
+       - name: "EMB-CPP-187"
          enabled: false
-#       - ruleName: "abseil-duration-division"
-         name: "EMB-CPP-188"
+##      - ruleName: "abseil-duration-division"
+       - name: "EMB-CPP-188"
          enabled: false
-#       - ruleName: "abseil-duration-factory-float"
-         name: "EMB-CPP-189"
+##      - ruleName: "abseil-duration-factory-float"
+       - name: "EMB-CPP-189"
          enabled: false
-#       - ruleName: "abseil-duration-factory-scale"
-         name: "EMB-CPP-190"
+##      - ruleName: "abseil-duration-factory-scale"
+       - name: "EMB-CPP-190"
          enabled: false
-#       - ruleName: "abseil-duration-unnecessary-conversion"
-         name: "EMB-CPP-191"
+##      - ruleName: "abseil-duration-unnecessary-conversion"
+       - name: "EMB-CPP-191"
          enabled: false
-#       - ruleName: "abseil-duration-subtraction"
-         name: "EMB-CPP-192"
+##      - ruleName: "abseil-duration-subtraction"
+       - name: "EMB-CPP-192"
          enabled: false
-#       - ruleName: "abseil-faster-strsplit-delimiter"
-         name: "EMB-CPP-193"
+##      - ruleName: "abseil-faster-strsplit-delimiter"
+       - name: "EMB-CPP-193"
          enabled: false
-#       - ruleName: "abseil-no-internal-dependencies"
-         name: "EMB-CPP-194"
+##      - ruleName: "abseil-no-internal-dependencies"
+       - name: "EMB-CPP-194"
          enabled: false
-#       - ruleName: "abseil-no-namespace"
-         name: "EMB-CPP-195"
+##      - ruleName: "abseil-no-namespace"
+       - name: "EMB-CPP-195"
          enabled: false
-#       - ruleName: "abseil-redundant-strcat-calls"
-         name: "EMB-CPP-196"
+##      - ruleName: "abseil-redundant-strcat-calls"
+       - name: "EMB-CPP-196"
          enabled: false
-#       - ruleName: "abseil-str-cat-append"
-         name: "EMB-CPP-197"
+##      - ruleName: "abseil-str-cat-append"
+       - name: "EMB-CPP-197"
          enabled: false
-#       - ruleName: "abseil-string-find-startswith"
-         name: "EMB-CPP-198"
+##      - ruleName: "abseil-string-find-startswith"
+       - name: "EMB-CPP-198"
          enabled: false
-#       - ruleName: "abseil-time-comparison"
-         name: "EMB-CPP-199"
+##      - ruleName: "abseil-time-comparison"
+       - name: "EMB-CPP-199"
          enabled: false
-#       - ruleName: "abseil-time-subtraction"
-         name: "EMB-CPP-200"
+##      - ruleName: "abseil-time-subtraction"
+       - name: "EMB-CPP-200"
          enabled: false
-#       - ruleName: "abseil-upgrade-duration-conversions"
-         name: "EMB-CPP-201"
+##      - ruleName: "abseil-upgrade-duration-conversions"
+       - name: "EMB-CPP-201"
          enabled: false
-#       - ruleName: "boost-use-to-string"
-         name: "EMB-CPP-202"
+##      - ruleName: "boost-use-to-string"
+       - name: "EMB-CPP-202"
          enabled: false
-#       - ruleName: "bugprone-argument-comment"
-         name: "EMB-CPP-203"
+##      - ruleName: "bugprone-argument-comment"
+       - name: "EMB-CPP-203"
          enabled: true
-#       - ruleName: "bugprone-unhandled-self-assignment"
-         name: "EMB-CPP-204"
+##      - ruleName: "bugprone-unhandled-self-assignment"
+       - name: "EMB-CPP-204"
          enabled: true
-#       - ruleName: "bugprone-branch-clone"
-         name: "EMB-CPP-205"
+##      - ruleName: "bugprone-branch-clone"
+       - name: "EMB-CPP-205"
          enabled: false
-#       - ruleName: "bugprone-posix-return"
-         name: "EMB-CPP-206"
+##      - ruleName: "bugprone-posix-return"
+       - name: "EMB-CPP-206"
          enabled: true
-#       - ruleName: "bugprone-suspicious-string-compare"
-         name: "EMB-CPP-207"
+##      - ruleName: "bugprone-suspicious-string-compare"
+       - name: "EMB-CPP-207"
          enabled: true
-#       - ruleName: "bugprone-assert-side-effect"
-         name: "EMB-CPP-208"
+##      - ruleName: "bugprone-assert-side-effect"
+       - name: "EMB-CPP-208"
          enabled: true
-#       - ruleName: "bugprone-bool-pointer-implicit-conversion"
-         name: "EMB-CPP-209"
+##      - ruleName: "bugprone-bool-pointer-implicit-conversion"
+       - name: "EMB-CPP-209"
          enabled: true
-#       - ruleName: "bugprone-copy-constructor-init"
-         name: "EMB-CPP-210"
+##      - ruleName: "bugprone-copy-constructor-init"
+       - name: "EMB-CPP-210"
          enabled: true
-#       - ruleName: "bugprone-dangling-handle"
-         name: "EMB-CPP-211"
+##      - ruleName: "bugprone-dangling-handle"
+       - name: "EMB-CPP-211"
          enabled: true
-#       - ruleName: "bugprone-fold-init-type"
-         name: "EMB-CPP-212"
+##      - ruleName: "bugprone-fold-init-type"
+       - name: "EMB-CPP-212"
          enabled: true
-#       - ruleName: "bugprone-forward-declaration-namespace"
-         name: "EMB-CPP-213"
+##      - ruleName: "bugprone-forward-declaration-namespace"
+       - name: "EMB-CPP-213"
          enabled: true
-#       - ruleName: "bugprone-inaccurate-erase"
-         name: "EMB-CPP-214"
+##      - ruleName: "bugprone-inaccurate-erase"
+       - name: "EMB-CPP-214"
          enabled: true
-#       - ruleName: "bugprone-integer-division"
-         name: "EMB-CPP-215"
+##      - ruleName: "bugprone-integer-division"
+       - name: "EMB-CPP-215"
          enabled: true
-#       - ruleName: "bugprone-misplaced-operator-in-strlen-in-alloc"
-         name: "EMB-CPP-216"
+##      - ruleName: "bugprone-misplaced-operator-in-strlen-in-alloc"
+       - name: "EMB-CPP-216"
          enabled: true
-#       - ruleName: "bugprone-move-forwarding-reference"
-         name: "EMB-CPP-217"
+##      - ruleName: "bugprone-move-forwarding-reference"
+       - name: "EMB-CPP-217"
          enabled: true
-#       - ruleName: "bugprone-multiple-statement-macro"
-         name: "EMB-CPP-218"
+##      - ruleName: "bugprone-multiple-statement-macro"
+       - name: "EMB-CPP-218"
          enabled: true
-#       - ruleName: "bugprone-string-constructor"
-         name: "EMB-CPP-219"
+##      - ruleName: "bugprone-string-constructor"
+       - name: "EMB-CPP-219"
          enabled: true
-#       - ruleName: "bugprone-suspicious-memset-usage"
-         name: "EMB-CPP-220"
+##      - ruleName: "bugprone-suspicious-memset-usage"
+       - name: "EMB-CPP-220"
          enabled: true
-#       - ruleName: "bugprone-undefined-memory-manipulation"
-         name: "EMB-CPP-221"
+##      - ruleName: "bugprone-undefined-memory-manipulation"
+       - name: "EMB-CPP-221"
          enabled: true
-#       - ruleName: "bugprone-use-after-move"
-         name: "EMB-CPP-222"
+##      - ruleName: "bugprone-use-after-move"
+       - name: "EMB-CPP-222"
          enabled: true
-#       - ruleName: "bugprone-virtual-near-miss"
-         name: "EMB-CPP-223"
+##      - ruleName: "bugprone-virtual-near-miss"
+       - name: "EMB-CPP-223"
          enabled: true
-#       - ruleName: "bugprone-exception-escape"
-         name: "EMB-CPP-224"
+##      - ruleName: "bugprone-exception-escape"
+       - name: "EMB-CPP-224"
          enabled: true
-#       - ruleName: "bugprone-forwarding-reference-overload"
-         name: "EMB-CPP-225"
+##      - ruleName: "bugprone-forwarding-reference-overload"
+       - name: "EMB-CPP-225"
          enabled: true
-#       - ruleName: "bugprone-incorrect-roundings"
-         name: "EMB-CPP-226"
+##      - ruleName: "bugprone-incorrect-roundings"
+       - name: "EMB-CPP-226"
          enabled: true
-#       - ruleName: "bugprone-lambda-function-name"
-         name: "EMB-CPP-227"
+##      - ruleName: "bugprone-lambda-function-name"
+       - name: "EMB-CPP-227"
          enabled: true
-#       - ruleName: "bugprone-macro-parentheses"
-         name: "EMB-CPP-228"
+##      - ruleName: "bugprone-macro-parentheses"
+       - name: "EMB-CPP-228"
          enabled: true
-#       - ruleName: "bugprone-macro-repeated-side-effects"
-         name: "EMB-CPP-229"
+##      - ruleName: "bugprone-macro-repeated-side-effects"
+       - name: "EMB-CPP-229"
          enabled: true
-#       - ruleName: "bugprone-misplaced-widening-cast"
-         name: "EMB-CPP-230"
+##      - ruleName: "bugprone-misplaced-widening-cast"
+       - name: "EMB-CPP-230"
          enabled: true
-#       - ruleName: "bugprone-parent-virtual-call"
-         name: "EMB-CPP-231"
+##      - ruleName: "bugprone-parent-virtual-call"
+       - name: "EMB-CPP-231"
          enabled: true
-#       - ruleName: "bugprone-sizeof-container"
-         name: "EMB-CPP-232"
+##      - ruleName: "bugprone-sizeof-container"
+       - name: "EMB-CPP-232"
          enabled: true
-#       - ruleName: "bugprone-sizeof-expression"
-         name: "EMB-CPP-233"
+##      - ruleName: "bugprone-sizeof-expression"
+       - name: "EMB-CPP-233"
          enabled: true
-#       - ruleName: "bugprone-string-integer-assignment"
-         name: "EMB-CPP-234"
+##      - ruleName: "bugprone-string-integer-assignment"
+       - name: "EMB-CPP-234"
          enabled: true
-#       - ruleName: "bugprone-string-literal-with-embedded-nul"
-         name: "EMB-CPP-235"
+##      - ruleName: "bugprone-string-literal-with-embedded-nul"
+       - name: "EMB-CPP-235"
          enabled: true
-#       - ruleName: "bugprone-suspicious-enum-usage"
-         name: "EMB-CPP-236"
+##      - ruleName: "bugprone-suspicious-enum-usage"
+       - name: "EMB-CPP-236"
          enabled: true
-#       - ruleName: "bugprone-suspicious-missing-comma"
-         name: "EMB-CPP-237"
+##      - ruleName: "bugprone-suspicious-missing-comma"
+       - name: "EMB-CPP-237"
          enabled: true
-#       - ruleName: "bugprone-suspicious-semicolon"
-         name: "EMB-CPP-238"
+##      - ruleName: "bugprone-suspicious-semicolon"
+       - name: "EMB-CPP-238"
          enabled: true
-#       - ruleName: "bugprone-swapped-arguments"
-         name: "EMB-CPP-239"
+##      - ruleName: "bugprone-swapped-arguments"
+       - name: "EMB-CPP-239"
          enabled: true
-#       - ruleName: "bugprone-terminating-continue"
-         name: "EMB-CPP-240"
+##      - ruleName: "bugprone-terminating-continue"
+       - name: "EMB-CPP-240"
          enabled: true
-#       - ruleName: "bugprone-throw-keyword-missing"
-         name: "EMB-CPP-241"
+##      - ruleName: "bugprone-throw-keyword-missing"
+       - name: "EMB-CPP-241"
          enabled: true
-#       - ruleName: "bugprone-too-small-loop-variable"
-         name: "EMB-CPP-242"
+##      - ruleName: "bugprone-too-small-loop-variable"
+       - name: "EMB-CPP-242"
          enabled: true
-#       - ruleName: "bugprone-unused-raii"
-         name: "EMB-CPP-243"
+##      - ruleName: "bugprone-unused-raii"
+       - name: "EMB-CPP-243"
          enabled: true
-#       - ruleName: "bugprone-narrowing-conversions"
-         name: "EMB-CPP-244"
+##      - ruleName: "bugprone-narrowing-conversions"
+       - name: "EMB-CPP-244"
          enabled: false
-#       - ruleName: "bugprone-unused-return-value"
-         name: "EMB-CPP-245"
+##      - ruleName: "bugprone-unused-return-value"
+       - name: "EMB-CPP-245"
          enabled: true
-#       - ruleName: "bugprone-undelegated-constructor"
-         name: "EMB-CPP-246"
+##      - ruleName: "bugprone-undelegated-constructor"
+       - name: "EMB-CPP-246"
          enabled: true
-#       - ruleName: "﻿cppcoreguidelines-c-copy-assignment-signature"
-         name: "EMB-CPP-247"
+##      - ruleName: "﻿cppcoreguidelines-c-copy-assignment-signature"
+       - name: "EMB-CPP-247"
          enabled: false
-#       - ruleName: "﻿cppcoreguidelines-interfaces-global-init"
-         name: "EMB-CPP-248"
+##      - ruleName: "﻿cppcoreguidelines-interfaces-global-init"
+       - name: "EMB-CPP-248"
          enabled: false
-#       - ruleName: "﻿cppcoreguidelines-no-malloc"
-         name: "EMB-CPP-249"
+##      - ruleName: "﻿cppcoreguidelines-no-malloc"
+       - name: "EMB-CPP-249"
          enabled: false
-#       - ruleName: "﻿cppcoreguidelines-owning-memory"
-         name: "EMB-CPP-250"
+##      - ruleName: "﻿cppcoreguidelines-owning-memory"
+       - name: "EMB-CPP-250"
          enabled: false
-#       - ruleName: "﻿cppcoreguidelines-pro-bounds-array-to-pointer-decay"
-         name: "EMB-CPP-251"
+##      - ruleName: "﻿cppcoreguidelines-pro-bounds-array-to-pointer-decay"
+       - name: "EMB-CPP-251"
          enabled: false
-#       - ruleName: "﻿cppcoreguidelines-pro-bounds-constant-array-index"
-         name: "EMB-CPP-252"
+##      - ruleName: "﻿cppcoreguidelines-pro-bounds-constant-array-index"
+       - name: "EMB-CPP-252"
          enabled: false
-#       - ruleName: "﻿cppcoreguidelines-pro-bounds-pointer-arithmetic"
-         name: "EMB-CPP-253"
+##      - ruleName: "﻿cppcoreguidelines-pro-bounds-pointer-arithmetic"
+       - name: "EMB-CPP-253"
          enabled: false
-#       - ruleName: "﻿cppcoreguidelines-pro-type-const-cast"
-         name: "EMB-CPP-254"
+##      - ruleName: "﻿cppcoreguidelines-pro-type-const-cast"
+       - name: "EMB-CPP-254"
          enabled: false
-#       - ruleName: "cppcoreguidelines-pro-type-cstyle-cast"
-         name: "EMB-CPP-255"
+##      - ruleName: "cppcoreguidelines-pro-type-cstyle-cast"
+       - name: "EMB-CPP-255"
          enabled: false
-#       - ruleName: "﻿cppcoreguidelines-pro-type-member-init"
-         name: "EMB-CPP-256"
+##      - ruleName: "﻿cppcoreguidelines-pro-type-member-init"
+       - name: "EMB-CPP-256"
          enabled: false
-#       - ruleName: "﻿cppcoreguidelines-pro-type-reinterpret-cast"
-         name: "EMB-CPP-257"
+##      - ruleName: "﻿cppcoreguidelines-pro-type-reinterpret-cast"
+       - name: "EMB-CPP-257"
          enabled: false
-#       - ruleName: "cppcoreguidelines-pro-type-static-cast-downcast"
-         name: "EMB-CPP-258"
+##      - ruleName: "cppcoreguidelines-pro-type-static-cast-downcast"
+       - name: "EMB-CPP-258"
          enabled: false
-#       - ruleName: "cppcoreguidelines-pro-type-union-access"
-         name: "EMB-CPP-259"
+##      - ruleName: "cppcoreguidelines-pro-type-union-access"
+       - name: "EMB-CPP-259"
          enabled: false
-#       - ruleName: "cppcoreguidelines-pro-type-vararg"
-         name: "EMB-CPP-260"
+##      - ruleName: "cppcoreguidelines-pro-type-vararg"
+       - name: "EMB-CPP-260"
          enabled: false
-#       - ruleName: "cppcoreguidelines-slicing"
-         name: "EMB-CPP-261"
+##      - ruleName: "cppcoreguidelines-slicing"
+       - name: "EMB-CPP-261"
          enabled: false
-#       - ruleName: "cppcoreguidelines-special-member-functions"
-         name: "EMB-CPP-262"
+##      - ruleName: "cppcoreguidelines-special-member-functions"
+       - name: "EMB-CPP-262"
          enabled: false
-#       - ruleName: "cppcoreguidelines-avoid-goto"
-         name: "EMB-CPP-263"
+##      - ruleName: "cppcoreguidelines-avoid-goto"
+       - name: "EMB-CPP-263"
          enabled: false
-#       - ruleName: "cppcoreguidelines-avoid-magic-numbers"
-         name: "EMB-CPP-264"
+##      - ruleName: "cppcoreguidelines-avoid-magic-numbers"
+       - name: "EMB-CPP-264"
          enabled: false
-#       - ruleName: "cppcoreguidelines-avoid-c-arrays"
-         name: "EMB-CPP-265"
+##      - ruleName: "cppcoreguidelines-avoid-c-arrays"
+       - name: "EMB-CPP-265"
          enabled: false
-#       - ruleName: "cppcoreguidelines-macro-usage"
-         name: "EMB-CPP-266"
+##      - ruleName: "cppcoreguidelines-macro-usage"
+       - name: "EMB-CPP-266"
          enabled: true
-#       - ruleName: "cppcoreguidelines-narrowing-conversions"
-         name: "EMB-CPP-267"
+##      - ruleName: "cppcoreguidelines-narrowing-conversions"
+       - name: "EMB-CPP-267"
          enabled: true
-#       - ruleName: "cppcoreguidelines-explicit-virtual-functions"
-         name: "EMB-CPP-268"
+##      - ruleName: "cppcoreguidelines-explicit-virtual-functions"
+       - name: "EMB-CPP-268"
          enabled: false
-#       - ruleName: "cppcoreguidelines-non-private-member-variables-in-classes"
-         name: "EMB-CPP-269"
+##      - ruleName: "cppcoreguidelines-non-private-member-variables-in-classes"
+       - name: "EMB-CPP-269"
          enabled: true
-#       - ruleName: "modernize-avoid-c-arrays"
-         name: "EMB-CPP-270"
+##      - ruleName: "modernize-avoid-c-arrays"
+       - name: "EMB-CPP-270"
          enabled: true
-#       - ruleName: "modernize-deprecated-ios-base-aliases"
-         name: "EMB-CPP-271"
+##      - ruleName: "modernize-deprecated-ios-base-aliases"
+       - name: "EMB-CPP-271"
          enabled: true
-#       - ruleName: "modernize-use-nodiscard"
-         name: "EMB-CPP-272"
+##      - ruleName: "modernize-use-nodiscard"
+       - name: "EMB-CPP-272"
          enabled: true
-#       - ruleName: "modernize-use-trailing-return-type"
-         name: "EMB-CPP-273"
+##      - ruleName: "modernize-use-trailing-return-type"
+       - name: "EMB-CPP-273"
          enabled: false
-#       - ruleName: "modernize-concat-nested-namespaces"
-         name: "EMB-CPP-274"
+##      - ruleName: "modernize-concat-nested-namespaces"
+       - name: "EMB-CPP-274"
          enabled: true
-#       - ruleName: "modernize-use-uncaught-exceptions"
-         name: "EMB-CPP-275"
+##      - ruleName: "modernize-use-uncaught-exceptions"
+       - name: "EMB-CPP-275"
          enabled: true
-#       - ruleName: "modernize-loop-convert"
-         name: "EMB-CPP-276"
+##      - ruleName: "modernize-loop-convert"
+       - name: "EMB-CPP-276"
          enabled: false
-#       - ruleName: "modernize-make-unique"
-         name: "EMB-CPP-277"
+##      - ruleName: "modernize-make-unique"
+       - name: "EMB-CPP-277"
          enabled: false
-#       - ruleName: "modernize-pass-by-value"
-         name: "EMB-CPP-278"
+##      - ruleName: "modernize-pass-by-value"
+       - name: "EMB-CPP-278"
          enabled: false
-#       - ruleName: "modernize-redundant-void-arg"
-         name: "EMB-CPP-279"
+##      - ruleName: "modernize-redundant-void-arg"
+       - name: "EMB-CPP-279"
          enabled: false
-#       - ruleName: "modernize-replace-auto-ptr"
-         name: "EMB-CPP-280"
+##      - ruleName: "modernize-replace-auto-ptr"
+       - name: "EMB-CPP-280"
          enabled: false
-#       - ruleName: "modernize-shrink-to-fit"
-         name: "EMB-CPP-281"
+##      - ruleName: "modernize-shrink-to-fit"
+       - name: "EMB-CPP-281"
          enabled: false
-#       - ruleName: "modernize-use-auto"
-         name: "EMB-CPP-282"
+##      - ruleName: "modernize-use-auto"
+       - name: "EMB-CPP-282"
          enabled: false
-#       - ruleName: "modernize-use-nullptr"
-         name: "EMB-CPP-283"
+##      - ruleName: "modernize-use-nullptr"
+       - name: "EMB-CPP-283"
          enabled: false
-#       - ruleName: "modernize-use-using"
-         name: "EMB-CPP-284"
+##      - ruleName: "modernize-use-using"
+       - name: "EMB-CPP-284"
          enabled: false
-#       - ruleName: "modernize-use-transparent-functors"
-         name: "EMB-CPP-285"
+##      - ruleName: "modernize-use-transparent-functors"
+       - name: "EMB-CPP-285"
          enabled: false
-#       - ruleName: "modernize-use-noexcept"
-         name: "EMB-CPP-286"
+##      - ruleName: "modernize-use-noexcept"
+       - name: "EMB-CPP-286"
          enabled: false
-#       - ruleName: "modernize-use-equals-delete"
-         name: "EMB-CPP-287"
+##      - ruleName: "modernize-use-equals-delete"
+       - name: "EMB-CPP-287"
          enabled: false
-#       - ruleName: "modernize-use-equals-default"
-         name: "EMB-CPP-288"
+##      - ruleName: "modernize-use-equals-default"
+       - name: "EMB-CPP-288"
          enabled: false
-#       - ruleName: "modernize-use-emplace"
-         name: "EMB-CPP-289"
+##      - ruleName: "modernize-use-emplace"
+       - name: "EMB-CPP-289"
          enabled: false
-#       - ruleName: "modernize-use-default-member-init"
-         name: "EMB-CPP-290"
+##      - ruleName: "modernize-use-default-member-init"
+       - name: "EMB-CPP-290"
          enabled: false
-#       - ruleName: "modernize-use-bool-literals"
-         name: "EMB-CPP-291"
+##      - ruleName: "modernize-use-bool-literals"
+       - name: "EMB-CPP-291"
          enabled: false
-#       - ruleName: "modernize-unary-static-assert"
-         name: "EMB-CPP-292"
+##      - ruleName: "modernize-unary-static-assert"
+       - name: "EMB-CPP-292"
          enabled: false
-#       - ruleName: "modernize-return-braced-init-list"
-         name: "EMB-CPP-293"
+##      - ruleName: "modernize-return-braced-init-list"
+       - name: "EMB-CPP-293"
          enabled: false
-#       - ruleName: "modernize-replace-random-shuffle"
-         name: "EMB-CPP-294"
+##      - ruleName: "modernize-replace-random-shuffle"
+       - name: "EMB-CPP-294"
          enabled: false
-#       - ruleName: "modernize-raw-string-literal"
-         name: "EMB-CPP-295"
+##      - ruleName: "modernize-raw-string-literal"
+       - name: "EMB-CPP-295"
          enabled: false
-#       - ruleName: "modernize-make-shared"
-         name: "EMB-CPP-296"
+##      - ruleName: "modernize-make-shared"
+       - name: "EMB-CPP-296"
          enabled: false
-#       - ruleName: "modernize-deprecated-headers"
-         name: "EMB-CPP-297"
+##      - ruleName: "modernize-deprecated-headers"
+       - name: "EMB-CPP-297"
          enabled: false
-#       - ruleName: "modernize-avoid-bind"
-         name: "EMB-CPP-298"
+##      - ruleName: "modernize-avoid-bind"
+       - name: "EMB-CPP-298"
          enabled: false
-#       - ruleName: "modernize-use-override"
-         name: "EMB-CPP-299"
+##      - ruleName: "modernize-use-override"
+       - name: "EMB-CPP-299"
          enabled: false
-#       - ruleName: "google-build-explicit-make-pair"
-         name: "EMB-CPP-300"
+##      - ruleName: "google-build-explicit-make-pair"
+       - name: "EMB-CPP-300"
          enabled: false
-#       - ruleName: "google-build-namespaces"
-         name: "EMB-CPP-301"
+##      - ruleName: "google-build-namespaces"
+       - name: "EMB-CPP-301"
          enabled: false
-#       - ruleName: "google-build-using-namespace"
-         name: "EMB-CPP-302"
+##      - ruleName: "google-build-using-namespace"
+       - name: "EMB-CPP-302"
          enabled: false
-#       - ruleName: "google-explicit-constructor"
-         name: "EMB-CPP-303"
+##      - ruleName: "google-explicit-constructor"
+       - name: "EMB-CPP-303"
          enabled: false
-#       - ruleName: "google-global-names-in-headers"
-         name: "EMB-CPP-304"
+##      - ruleName: "google-global-names-in-headers"
+       - name: "EMB-CPP-304"
          enabled: false
-#       - ruleName: "google-default-arguments"
-         name: "EMB-CPP-305"
+##      - ruleName: "google-default-arguments"
+       - name: "EMB-CPP-305"
          enabled: false
-#       - ruleName: "google-objc-avoid-throwing-exception"
-         name: "EMB-CPP-306"
+##      - ruleName: "google-objc-avoid-throwing-exception"
+       - name: "EMB-CPP-306"
          enabled: false
-#       - ruleName: "google-readability-avoid-underscore-in-googletest-name"
-         name: "EMB-CPP-307"
+##      - ruleName: "google-readability-avoid-underscore-in-googletest-name"
+       - name: "EMB-CPP-307"
          enabled: true
-#       - ruleName: "google-objc-avoid-nsobject-new"
-         name: "EMB-CPP-308"
+##      - ruleName: "google-objc-avoid-nsobject-new"
+       - name: "EMB-CPP-308"
          enabled: true
-#       - ruleName: "google-objc-function-naming"
-         name: "EMB-CPP-309"
+##      - ruleName: "google-objc-function-naming"
+       - name: "EMB-CPP-309"
          enabled: true
-#       - ruleName: "google-objc-global-variable-declaration"
-         name: "EMB-CPP-310"
+##      - ruleName: "google-objc-global-variable-declaration"
+       - name: "EMB-CPP-310"
          enabled: false
-#       - ruleName: "google-readability-braces-around-statements"
-         name: "EMB-CPP-311"
+##      - ruleName: "google-readability-braces-around-statements"
+       - name: "EMB-CPP-311"
          enabled: false
-#       - ruleName: "google-readability-function-size"
-         name: "EMB-CPP-312"
+##      - ruleName: "google-readability-function-size"
+       - name: "EMB-CPP-312"
          enabled: false
-#       - ruleName: "google-readability-casting"
-         name: "EMB-CPP-313"
+##      - ruleName: "google-readability-casting"
+       - name: "EMB-CPP-313"
          enabled: false
-#       - ruleName: "google-readability-namespace-comments"
-         name: "EMB-CPP-314"
+##      - ruleName: "google-readability-namespace-comments"
+       - name: "EMB-CPP-314"
          enabled: false
-#       - ruleName: "google-readability-redundant-smartptr-get"
-         name: "EMB-CPP-315"
+##      - ruleName: "google-readability-redundant-smartptr-get"
+       - name: "EMB-CPP-315"
          enabled: false
-#       - ruleName: "google-readability-todo"
-         name: "EMB-CPP-316"
+##      - ruleName: "google-readability-todo"
+       - name: "EMB-CPP-316"
          enabled: false
-#       - ruleName: "google-runtime-int"
-         name: "EMB-CPP-317"
+##      - ruleName: "google-runtime-int"
+       - name: "EMB-CPP-317"
          enabled: false
-#       - ruleName: "google-runtime-member-string-references"
-         name: "EMB-CPP-318"
+##      - ruleName: "google-runtime-member-string-references"
+       - name: "EMB-CPP-318"
          enabled: false
-#       - ruleName: "google-runtime-operator"
-         name: "EMB-CPP-319"
+##      - ruleName: "google-runtime-operator"
+       - name: "EMB-CPP-319"
          enabled: false
-#       - ruleName: "google-runtime-references"
-         name: "EMB-CPP-320"
+##      - ruleName: "google-runtime-references"
+       - name: "EMB-CPP-320"
          enabled: false
-#       - ruleName: "llvm-include-order"
-         name: "EMB-CPP-321"
+##      - ruleName: "llvm-include-order"
+       - name: "EMB-CPP-321"
          enabled: false
-#       - ruleName: "llvm-prefer-isa-or-dyn-cast-in-conditionals"
-         name: "EMB-CPP-322"
+##      - ruleName: "llvm-prefer-isa-or-dyn-cast-in-conditionals"
+       - name: "EMB-CPP-322"
          enabled: true
-#       - ruleName: "llvm-namespace-comment"
-         name: "EMB-CPP-323"
+##      - ruleName: "llvm-namespace-comment"
+       - name: "EMB-CPP-323"
          enabled: false
-#       - ruleName: "llvm-twine-local"
-         name: "EMB-CPP-324"
+##      - ruleName: "llvm-twine-local"
+       - name: "EMB-CPP-324"
          enabled: false
-#       - ruleName: "llvm-header-guard"
-         name: "EMB-CPP-325"
+##      - ruleName: "llvm-header-guard"
+       - name: "EMB-CPP-325"
          enabled: false
-#       - ruleName: "readability-const-return-type"
-         name: "EMB-CPP-326"
+##      - ruleName: "readability-const-return-type"
+       - name: "EMB-CPP-326"
          enabled: true
-#       - ruleName: "readability-convert-member-functions-to-static"
-         name: "EMB-CPP-327"
+##      - ruleName: "readability-convert-member-functions-to-static"
+       - name: "EMB-CPP-327"
          enabled: true
-#       - ruleName: "readability-isolate-declaration"
-         name: "EMB-CPP-328"
+##      - ruleName: "readability-isolate-declaration"
+       - name: "EMB-CPP-328"
          enabled: true
-#       - ruleName: "readability-redundant-preprocessor"
-         name: "EMB-CPP-329"
+##      - ruleName: "readability-redundant-preprocessor"
+       - name: "EMB-CPP-329"
          enabled: true
-#       - ruleName: "readability-magic-numbers"
-         name: "EMB-CPP-330"
+##      - ruleName: "readability-magic-numbers"
+       - name: "EMB-CPP-330"
          enabled: false
-#       - ruleName: "readability-simplify-subscript-expr"
-         name: "EMB-CPP-331"
+##      - ruleName: "readability-simplify-subscript-expr"
+       - name: "EMB-CPP-331"
          enabled: true
-#       - ruleName: "readability-string-compare"
-         name: "EMB-CPP-332"
+##      - ruleName: "readability-string-compare"
+       - name: "EMB-CPP-332"
          enabled: true
-#       - ruleName: "readability-uppercase-literal-suffix"
-         name: "EMB-CPP-333"
+##      - ruleName: "readability-uppercase-literal-suffix"
+       - name: "EMB-CPP-333"
          enabled: false
-#       - ruleName: "readability-static-definition-in-anonymous-namespace"
-         name: "EMB-CPP-334"
+##      - ruleName: "readability-static-definition-in-anonymous-namespace"
+       - name: "EMB-CPP-334"
          enabled: false
-#       - ruleName: "readability-static-accessed-through-instance"
-         name: "EMB-CPP-335"
+##      - ruleName: "readability-static-accessed-through-instance"
+       - name: "EMB-CPP-335"
          enabled: false
-#       - ruleName: "readability-redundant-string-init"
-         name: "EMB-CPP-336"
+##      - ruleName: "readability-redundant-string-init"
+       - name: "EMB-CPP-336"
          enabled: false
-#       - ruleName: "readability-redundant-member-init"
-         name: "EMB-CPP-337"
+##      - ruleName: "readability-redundant-member-init"
+       - name: "EMB-CPP-337"
          enabled: false
-#       - ruleName: "readability-redundant-function-ptr-dereference"
-         name: "EMB-CPP-338"
+##      - ruleName: "readability-redundant-function-ptr-dereference"
+       - name: "EMB-CPP-338"
          enabled: false
-#       - ruleName: "readability-redundant-declaration"
-         name: "EMB-CPP-339"
+##      - ruleName: "readability-redundant-declaration"
+       - name: "EMB-CPP-339"
          enabled: false
-#       - ruleName: "readability-redundant-control-flow"
-         name: "EMB-CPP-340"
+##      - ruleName: "readability-redundant-control-flow"
+       - name: "EMB-CPP-340"
          enabled: false
-#       - ruleName: "readability-non-const-parameter"
-         name: "EMB-CPP-341"
+##      - ruleName: "readability-non-const-parameter"
+       - name: "EMB-CPP-341"
          enabled: false
-#       - ruleName: "readability-misplaced-array-index"
-         name: "EMB-CPP-342"
+##      - ruleName: "readability-misplaced-array-index"
+       - name: "EMB-CPP-342"
          enabled: false
-#       - ruleName: "readability-misleading-indentation"
-         name: "EMB-CPP-343"
+##      - ruleName: "readability-misleading-indentation"
+       - name: "EMB-CPP-343"
          enabled: false
-#       - ruleName: "readability-deleted-default"
-         name: "EMB-CPP-344"
+##      - ruleName: "readability-deleted-default"
+       - name: "EMB-CPP-344"
          enabled: false
-#       - ruleName: "readability-delete-null-pointer"
-         name: "EMB-CPP-345"
+##      - ruleName: "readability-delete-null-pointer"
+       - name: "EMB-CPP-345"
          enabled: false
-#       - ruleName: "readability-avoid-const-params-in-decls"
-         name: "EMB-CPP-346"
+##      - ruleName: "readability-avoid-const-params-in-decls"
+       - name: "EMB-CPP-346"
          enabled: false
-#       - ruleName: "readability-braces-around-statements"
-         name: "EMB-CPP-347"
+##      - ruleName: "readability-braces-around-statements"
+       - name: "EMB-CPP-347"
          enabled: false
-#       - ruleName: "readability-container-size-empty"
-         name: "EMB-CPP-348"
+##      - ruleName: "readability-container-size-empty"
+       - name: "EMB-CPP-348"
          enabled: false
-#       - ruleName: "readability-else-after-return"
-         name: "EMB-CPP-349"
+##      - ruleName: "readability-else-after-return"
+       - name: "EMB-CPP-349"
          enabled: false
-#       - ruleName: "readability-function-size"
-         name: "EMB-CPP-350"
+##      - ruleName: "readability-function-size"
+       - name: "EMB-CPP-350"
          enabled: false
-#       - ruleName: "readability-identifier-naming"
-         name: "EMB-CPP-351"
+##      - ruleName: "readability-identifier-naming"
+       - name: "EMB-CPP-351"
          enabled: false
-#       - ruleName: "readability-implicit-bool-cast"
-         name: "EMB-CPP-352"
+##      - ruleName: "readability-implicit-bool-cast"
+       - name: "EMB-CPP-352"
          enabled: false
-#       - ruleName: "readability-inconsistent-declaration-parameter-name"
-         name: "EMB-CPP-353"
+##      - ruleName: "readability-inconsistent-declaration-parameter-name"
+       - name: "EMB-CPP-353"
          enabled: false
-#       - ruleName: "readability-named-parameter"
-         name: "EMB-CPP-354"
+##      - ruleName: "readability-named-parameter"
+       - name: "EMB-CPP-354"
          enabled: false
-#       - ruleName: "readability-redundant-smartptr-get"
-         name: "EMB-CPP-355"
+##      - ruleName: "readability-redundant-smartptr-get"
+       - name: "EMB-CPP-355"
          enabled: false
-#       - ruleName: "readability-redundant-string-cstr"
-         name: "EMB-CPP-356"
+##      - ruleName: "readability-redundant-string-cstr"
+       - name: "EMB-CPP-356"
          enabled: false
-#       - ruleName: "readability-simplify-boolean-expr"
-         name: "EMB-CPP-357"
+##      - ruleName: "readability-simplify-boolean-expr"
+       - name: "EMB-CPP-357"
          enabled: false
-#       - ruleName: "readability-uniqueptr-delete-release"
-         name: "EMB-CPP-358"
+##      - ruleName: "readability-uniqueptr-delete-release"
+       - name: "EMB-CPP-358"
          enabled: false
-#       - ruleName: "objc-avoid-nserror-init"
-         name: "EMB-CPP-359"
+##      - ruleName: "objc-avoid-nserror-init"
+       - name: "EMB-CPP-359"
          enabled: false
-#       - ruleName: "objc-avoid-spinlock"
-         name: "EMB-CPP-360"
+##      - ruleName: "objc-avoid-spinlock"
+       - name: "EMB-CPP-360"
          enabled: false
-#       - ruleName: "objc-forbidden-subclassing"
-         name: "EMB-CPP-361"
+##      - ruleName: "objc-forbidden-subclassing"
+       - name: "EMB-CPP-361"
          enabled: false
-#       - ruleName: "objc-super-self"
-         name: "EMB-CPP-362"
+##      - ruleName: "objc-super-self"
+       - name: "EMB-CPP-362"
          enabled: false
-#       - ruleName: "objc-property-declaration"
-         name: "EMB-CPP-363"
+##      - ruleName: "objc-property-declaration"
+       - name: "EMB-CPP-363"
          enabled: false
-#       - ruleName: "openmp-use-default-none"
-         name: "EMB-CPP-364"
+##      - ruleName: "openmp-use-default-none"
+       - name: "EMB-CPP-364"
          enabled: false
-#       - ruleName: "openmp-exception-escape"
-         name: "EMB-CPP-365"
+##      - ruleName: "openmp-exception-escape"
+       - name: "EMB-CPP-365"
          enabled: false
-#       - ruleName: "mpi-type-mismatch"
-         name: "EMB-CPP-366"
+##      - ruleName: "mpi-type-mismatch"
+       - name: "EMB-CPP-366"
          enabled: false
-#       - ruleName: "mpi-buffer-deref"
-         name: "EMB-CPP-367"
+##      - ruleName: "mpi-buffer-deref"
+       - name: "EMB-CPP-367"
          enabled: false
-#       - ruleName: "MISRA-C2012-1.1"
-         name: "EMB-CPP-368"
+##      - ruleName: "MISRA-C2012-1.1"
+       - name: "EMB-CPP-368"
          enabled: false
-#       - ruleName: "MISRA-C2012-2.7"
-         name: "EMB-CPP-369"
+##      - ruleName: "MISRA-C2012-2.7"
+       - name: "EMB-CPP-369"
          enabled: false
-#       - ruleName: "MISRA-C2012-4.2"
-         name: "EMB-CPP-370"
+##      - ruleName: "MISRA-C2012-4.2"
+       - name: "EMB-CPP-370"
          enabled: false
-#       - ruleName: "MISRA-C2012-5.2"
-         name: "EMB-CPP-371"
+##      - ruleName: "MISRA-C2012-5.2"
+       - name: "EMB-CPP-371"
          enabled: false
-#       - ruleName: "MISRA-C2012-5.6"
-         name: "EMB-CPP-372"
+##      - ruleName: "MISRA-C2012-5.6"
+       - name: "EMB-CPP-372"
          enabled: false
-#       - ruleName: "MISRA-C2012-5.7"
-         name: "EMB-CPP-373"
+##      - ruleName: "MISRA-C2012-5.7"
+       - name: "EMB-CPP-373"
          enabled: false
-#       - ruleName: "MISRA-C2012-5.9"
-         name: "EMB-CPP-374"
+##      - ruleName: "MISRA-C2012-5.9"
+       - name: "EMB-CPP-374"
          enabled: false
-#       - ruleName: "MISRA-C2012-6.1"
-         name: "EMB-CPP-375"
+##      - ruleName: "MISRA-C2012-6.1"
+       - name: "EMB-CPP-375"
          enabled: false
-#       - ruleName: "MISRA-C2012-6.2"
-         name: "EMB-CPP-376"
+##      - ruleName: "MISRA-C2012-6.2"
+       - name: "EMB-CPP-376"
          enabled: false
-#       - ruleName: "MISRA-C2012-7.2"
-         name: "EMB-CPP-377"
+##      - ruleName: "MISRA-C2012-7.2"
+       - name: "EMB-CPP-377"
          enabled: false
-#       - ruleName: "MISRA-C2012-7.4"
-         name: "EMB-CPP-378"
+##      - ruleName: "MISRA-C2012-7.4"
+       - name: "EMB-CPP-378"
          enabled: false
-#       - ruleName: "MISRA-C2012-8.1"
-         name: "EMB-CPP-379"
+##      - ruleName: "MISRA-C2012-8.1"
+       - name: "EMB-CPP-379"
          enabled: false
-#       - ruleName: "MISRA-C2012-8.2"
-         name: "EMB-CPP-380"
+##      - ruleName: "MISRA-C2012-8.2"
+       - name: "EMB-CPP-380"
          enabled: false
-#       - ruleName: "MISRA-C2012-8.4"
-         name: "EMB-CPP-381"
+##      - ruleName: "MISRA-C2012-8.4"
+       - name: "EMB-CPP-381"
          enabled: false
-#       - ruleName: "MISRA-C2012-8.5"
-         name: "EMB-CPP-382"
+##      - ruleName: "MISRA-C2012-8.5"
+       - name: "EMB-CPP-382"
          enabled: false
-#       - ruleName: "MISRA-C2012-8.6"
-         name: "EMB-CPP-383"
+##      - ruleName: "MISRA-C2012-8.6"
+       - name: "EMB-CPP-383"
          enabled: false
-#       - ruleName: "MISRA-C2012-8.7"
-         name: "EMB-CPP-384"
+##      - ruleName: "MISRA-C2012-8.7"
+       - name: "EMB-CPP-384"
          enabled: false
-#       - ruleName: "MISRA-C2012-8.8"
-         name: "EMB-CPP-385"
+##      - ruleName: "MISRA-C2012-8.8"
+       - name: "EMB-CPP-385"
          enabled: false
-#       - ruleName: "MISRA-C2012-8.9"
-         name: "EMB-CPP-386"
+##      - ruleName: "MISRA-C2012-8.9"
+       - name: "EMB-CPP-386"
          enabled: false
-#       - ruleName: "MISRA-C2012-8.10"
-         name: "EMB-CPP-387"
+##      - ruleName: "MISRA-C2012-8.10"
+       - name: "EMB-CPP-387"
          enabled: false
-#       - ruleName: "MISRA-C2012-8.11"
-         name: "EMB-CPP-388"
+##      - ruleName: "MISRA-C2012-8.11"
+       - name: "EMB-CPP-388"
          enabled: false
-#       - ruleName: "MISRA-C2012-9.3"
-         name: "EMB-CPP-389"
+##      - ruleName: "MISRA-C2012-9.3"
+       - name: "EMB-CPP-389"
          enabled: false
-#       - ruleName: "MISRA-C2012-9.4"
-         name: "EMB-CPP-390"
+##      - ruleName: "MISRA-C2012-9.4"
+       - name: "EMB-CPP-390"
          enabled: false
-#       - ruleName: "MISRA-C2012-10.5"
-         name: "EMB-CPP-391"
+##      - ruleName: "MISRA-C2012-10.5"
+       - name: "EMB-CPP-391"
          enabled: false
-#       - ruleName: "MISRA-C2012-11.1"
-         name: "EMB-CPP-392"
+##      - ruleName: "MISRA-C2012-11.1"
+       - name: "EMB-CPP-392"
          enabled: false
-#       - ruleName: "MISRA-C2012-11.2"
-         name: "EMB-CPP-393"
+##      - ruleName: "MISRA-C2012-11.2"
+       - name: "EMB-CPP-393"
          enabled: false
-#       - ruleName: "MISRA-C2012-11.4"
-         name: "EMB-CPP-394"
+##      - ruleName: "MISRA-C2012-11.4"
+       - name: "EMB-CPP-394"
          enabled: false
-#       - ruleName: "MISRA-C2012-11.5"
-         name: "EMB-CPP-395"
+##      - ruleName: "MISRA-C2012-11.5"
+       - name: "EMB-CPP-395"
          enabled: false
-#       - ruleName: "MISRA-C2012-17.2"
-         name: "EMB-CPP-396"
+##      - ruleName: "MISRA-C2012-17.2"
+       - name: "EMB-CPP-396"
          enabled: false
-#       - ruleName: "MISRA-C2012-17.3"
-         name: "EMB-CPP-397"
+##      - ruleName: "MISRA-C2012-17.3"
+       - name: "EMB-CPP-397"
          enabled: false
-#       - ruleName: "MISRA-C2012-17.4"
-         name: "EMB-CPP-398"
+##      - ruleName: "MISRA-C2012-17.4"
+       - name: "EMB-CPP-398"
          enabled: false
-#       - ruleName: "MISRA-C2012-17.7"
-         name: "EMB-CPP-399"
+##      - ruleName: "MISRA-C2012-17.7"
+       - name: "EMB-CPP-399"
          enabled: false
-#       - ruleName: "MISRA-C2012-18.4"
-         name: "EMB-CPP-400"
+##      - ruleName: "MISRA-C2012-18.4"
+       - name: "EMB-CPP-400"
          enabled: false
-#       - ruleName: "MISRA-C2012-18.7"
-         name: "EMB-CPP-401"
+##      - ruleName: "MISRA-C2012-18.7"
+       - name: "EMB-CPP-401"
          enabled: false
-#       - ruleName: "MISRA-C2012-20.7"
-         name: "EMB-CPP-402"
+##      - ruleName: "MISRA-C2012-20.7"
+       - name: "EMB-CPP-402"
          enabled: false
-#       - ruleName: "MISRA-C2012-3.2"
-         name: "EMB-CPP-403"
+##      - ruleName: "MISRA-C2012-3.2"
+       - name: "EMB-CPP-403"
          enabled: false
-#       - ruleName: "MISRA-C2012-20.8"
-         name: "EMB-CPP-404"
+##      - ruleName: "MISRA-C2012-20.8"
+       - name: "EMB-CPP-404"
          enabled: false
-#       - ruleName: "MISRA-C2012-20.11"
-         name: "EMB-CPP-405"
+##      - ruleName: "MISRA-C2012-20.11"
+       - name: "EMB-CPP-405"
          enabled: false
-#       - ruleName: "MISRA-C2012-20.12"
-         name: "EMB-CPP-406"
+##      - ruleName: "MISRA-C2012-20.12"
+       - name: "EMB-CPP-406"
          enabled: false
-#       - ruleName: "MISRA-C2012-20.13"
-         name: "EMB-CPP-407"
+##      - ruleName: "MISRA-C2012-20.13"
+       - name: "EMB-CPP-407"
          enabled: false
-#       - ruleName: "MISRA-C2012-20.14"
-         name: "EMB-CPP-408"
+##      - ruleName: "MISRA-C2012-20.14"
+       - name: "EMB-CPP-408"
          enabled: false
-#       - ruleName: "MISRA-C2012-21.1"
-         name: "EMB-CPP-409"
+##      - ruleName: "MISRA-C2012-21.1"
+       - name: "EMB-CPP-409"
          enabled: false
-#       - ruleName: "MISRA-C2012-21.6"
-         name: "EMB-CPP-410"
+##      - ruleName: "MISRA-C2012-21.6"
+       - name: "EMB-CPP-410"
          enabled: false
-#       - ruleName: "MISRA-C2012-21.8"
-         name: "EMB-CPP-411"
+##      - ruleName: "MISRA-C2012-21.8"
+       - name: "EMB-CPP-411"
          enabled: false
-#       - ruleName: "MISRA-C2012-21.10"
-         name: "EMB-CPP-412"
+##      - ruleName: "MISRA-C2012-21.10"
+       - name: "EMB-CPP-412"
          enabled: false
-#       - ruleName: "MISRA-C2012-21.12"
-         name: "EMB-CPP-413"
+##      - ruleName: "MISRA-C2012-21.12"
+       - name: "EMB-CPP-413"
          enabled: false
-#       - ruleName: "MISRA-C2012-22.5"
-         name: "EMB-CPP-414"
+##      - ruleName: "MISRA-C2012-22.5"
+       - name: "EMB-CPP-414"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-2-13-3"
-         name: "EMB-CPP-415"
+##      - ruleName: "MISRA-CPP2008-2-13-3"
+       - name: "EMB-CPP-415"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-4-10-2"
-         name: "EMB-CPP-416"
+##      - ruleName: "MISRA-CPP2008-4-10-2"
+       - name: "EMB-CPP-416"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-6-4-1"
-         name: "EMB-CPP-417"
+##      - ruleName: "MISRA-CPP2008-6-4-1"
+       - name: "EMB-CPP-417"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-6-4-2"
-         name: "EMB-CPP-418"
+##      - ruleName: "MISRA-CPP2008-6-4-2"
+       - name: "EMB-CPP-418"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-6-4-4"
-         name: "EMB-CPP-419"
+##      - ruleName: "MISRA-CPP2008-6-4-4"
+       - name: "EMB-CPP-419"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-9-5-1"
-         name: "EMB-CPP-420"
+##      - ruleName: "MISRA-CPP2008-9-5-1"
+       - name: "EMB-CPP-420"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-10-3-2"
-         name: "EMB-CPP-421"
+##      - ruleName: "MISRA-CPP2008-10-3-2"
+       - name: "EMB-CPP-421"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-10-3-3"
-         name: "EMB-CPP-422"
+##      - ruleName: "MISRA-CPP2008-10-3-3"
+       - name: "EMB-CPP-422"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-11-0-1"
-         name: "EMB-CPP-423"
+##      - ruleName: "MISRA-CPP2008-11-0-1"
+       - name: "EMB-CPP-423"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-12-8-2"
-         name: "EMB-CPP-424"
+##      - ruleName: "MISRA-CPP2008-12-8-2"
+       - name: "EMB-CPP-424"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-15-5-1"
-         name: "EMB-CPP-425"
+##      - ruleName: "MISRA-CPP2008-15-5-1"
+       - name: "EMB-CPP-425"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-16-3-1"
-         name: "EMB-CPP-426"
+##      - ruleName: "MISRA-CPP2008-16-3-1"
+       - name: "EMB-CPP-426"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-16-3-2"
-         name: "EMB-CPP-427"
+##      - ruleName: "MISRA-CPP2008-16-3-2"
+       - name: "EMB-CPP-427"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-17-0-1"
-         name: "EMB-CPP-428"
+##      - ruleName: "MISRA-CPP2008-17-0-1"
+       - name: "EMB-CPP-428"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-17-0-5"
-         name: "EMB-CPP-429"
+##      - ruleName: "MISRA-CPP2008-17-0-5"
+       - name: "EMB-CPP-429"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-18-0-1"
-         name: "EMB-CPP-430"
+##      - ruleName: "MISRA-CPP2008-18-0-1"
+       - name: "EMB-CPP-430"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-18-0-2"
-         name: "EMB-CPP-431"
+##      - ruleName: "MISRA-CPP2008-18-0-2"
+       - name: "EMB-CPP-431"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-18-0-3"
-         name: "EMB-CPP-432"
+##      - ruleName: "MISRA-CPP2008-18-0-3"
+       - name: "EMB-CPP-432"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-18-0-4"
-         name: "EMB-CPP-433"
+##      - ruleName: "MISRA-CPP2008-18-0-4"
+       - name: "EMB-CPP-433"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-18-0-5"
-         name: "EMB-CPP-434"
+##      - ruleName: "MISRA-CPP2008-18-0-5"
+       - name: "EMB-CPP-434"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-18-2-1"
-         name: "EMB-CPP-435"
+##      - ruleName: "MISRA-CPP2008-18-2-1"
+       - name: "EMB-CPP-435"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-18-4-1"
-         name: "EMB-CPP-436"
+##      - ruleName: "MISRA-CPP2008-18-4-1"
+       - name: "EMB-CPP-436"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-18-7-1"
-         name: "EMB-CPP-437"
+##      - ruleName: "MISRA-CPP2008-18-7-1"
+       - name: "EMB-CPP-437"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-19-3-1"
-         name: "EMB-CPP-438"
+##      - ruleName: "MISRA-CPP2008-19-3-1"
+       - name: "EMB-CPP-438"
          enabled: false
-#       - ruleName: "MISRA-CPP2008-27-0-1"
-         name: "EMB-CPP-439"
+##      - ruleName: "MISRA-CPP2008-27-0-1"
+       - name: "EMB-CPP-439"
          enabled: false
-#       - ruleName: "global-variable"
-         name: "EMB-CPP-440"
+##      - ruleName: "global-variable"
+       - name: "EMB-CPP-440"
          enabled: true
-#       - ruleName: "dynamic cast"
-         name: "EMB-CPP-441"
+##      - ruleName: "dynamic cast"
+       - name: "EMB-CPP-441"
          enabled: false
-#       - ruleName: "empty catch"
-         name: "EMB-CPP-442"
+##      - ruleName: "empty catch"
+       - name: "EMB-CPP-442"
          enabled: false
-#       - ruleName: "char signedness"
-         name: "EMB-CPP-443"
+##      - ruleName: "char signedness"
+       - name: "EMB-CPP-443"
          enabled: false
-#       - ruleName: "fixed size memory operation"
-         name: "EMB-CPP-444"
+##      - ruleName: "fixed size memory operation"
+       - name: "EMB-CPP-444"
          enabled: false
-#       - ruleName: "hidden parameter"
-         name: "EMB-CPP-445"
+##      - ruleName: "hidden parameter"
+       - name: "EMB-CPP-445"
          enabled: false
-#       - ruleName: "deactivated code"
-         name: "EMB-CPP-446"
+##      - ruleName: "deactivated code"
+       - name: "EMB-CPP-446"
          enabled: false
-#       - ruleName: "braced-scalar-init"
-         name: "EMB-CPP-447"
+##      - ruleName: "braced-scalar-init"
+       - name: "EMB-CPP-447"
          enabled: false
-#       - ruleName: "parentheses-equality"
-         name: "EMB-CPP-448"
+##      - ruleName: "parentheses-equality"
+       - name: "EMB-CPP-448"
          enabled: false
-#       - ruleName: "tautological-constant-out-of-range-compare"
-         name: "EMB-CPP-449"
+##      - ruleName: "tautological-constant-out-of-range-compare"
+       - name: "EMB-CPP-449"
          enabled: false
-#       - ruleName: "logical-op-parentheses"
-         name: "EMB-CPP-450"
+##      - ruleName: "logical-op-parentheses"
+       - name: "EMB-CPP-450"
          enabled: false
-#       - ruleName: "switch"
-         name: "EMB-CPP-452"
+##      - ruleName: "switch"
+       - name: "EMB-CPP-452"
          enabled: true
-#       - ruleName: "header-guard"
-         name: "EMB-CPP-453"
+##      - ruleName: "header-guard"
+       - name: "EMB-CPP-453"
          enabled: false
-#       - ruleName: "portability-simd-intrinsics"
-         name: "EMB-CPP-454"
+##      - ruleName: "portability-simd-intrinsics"
+       - name: "EMB-CPP-454"
          enabled: true
-#       - ruleName: "zircon-temporary-objects"
-         name: "EMB-CPP-455"
+##      - ruleName: "zircon-temporary-objects"
+       - name: "EMB-CPP-455"
          enabled: true
-#       - ruleName: "delete-non-virtual-dtor"
-         name: "EMB-CPP-457"
+##      - ruleName: "delete-non-virtual-dtor"
+       - name: "EMB-CPP-457"
          enabled: true
-#       - ruleName: "array-bounds"
-         name: "EMB-CPP-458"
+##      - ruleName: "array-bounds"
+       - name: "EMB-CPP-458"
          enabled: false
-#       - ruleName: "builtin-macro-redefined"
-         name: "EMB-CPP-459"
+##      - ruleName: "builtin-macro-redefined"
+       - name: "EMB-CPP-459"
          enabled: true
-#       - ruleName: "dangling-else"
-         name: "EMB-CPP-461"
+##      - ruleName: "dangling-else"
+       - name: "EMB-CPP-461"
          enabled: true
-#       - ruleName: "empty-body"
-         name: "EMB-CPP-462"
+##      - ruleName: "empty-body"
+       - name: "EMB-CPP-462"
          enabled: true
-#       - ruleName: "enum-compare"
-         name: "EMB-CPP-463"
+##      - ruleName: "enum-compare"
+       - name: "EMB-CPP-463"
          enabled: true
-#       - ruleName: "extern-initializer"
-         name: "EMB-CPP-464"
+##      - ruleName: "extern-initializer"
+       - name: "EMB-CPP-464"
          enabled: true
-#       - ruleName: "extra-tokens"
-         name: "EMB-CPP-465"
+##      - ruleName: "extra-tokens"
+       - name: "EMB-CPP-465"
          enabled: true
-#       - ruleName: "incompatible-pointer-types-discards-qualifiers"
-         name: "EMB-CPP-466"
+##      - ruleName: "incompatible-pointer-types-discards-qualifiers"
+       - name: "EMB-CPP-466"
          enabled: true
-#       - ruleName: "int-to-pointer-cast"
-         name: "EMB-CPP-467"
+##      - ruleName: "int-to-pointer-cast"
+       - name: "EMB-CPP-467"
          enabled: true
-#       - ruleName: "invalid-token-paste"
-         name: "EMB-CPP-468"
+##      - ruleName: "invalid-token-paste"
+       - name: "EMB-CPP-468"
          enabled: true
-#       - ruleName: "macro-redefined"
-         name: "EMB-CPP-469"
+##      - ruleName: "macro-redefined"
+       - name: "EMB-CPP-469"
          enabled: true
-#       - ruleName: "MISRA-1.1-multichar"
-         name: "EMB-CPP-470"
+##      - ruleName: "MISRA-1.1-multichar"
+       - name: "EMB-CPP-470"
          enabled: true
-#       - ruleName: "parentheses"
-         name: "EMB-CPP-471"
+##      - ruleName: "parentheses"
+       - name: "EMB-CPP-471"
          enabled: true
-#       - ruleName: "return-stack-address"
-         name: "EMB-CPP-472"
+##      - ruleName: "return-stack-address"
+       - name: "EMB-CPP-472"
          enabled: true
-#       - ruleName: "shift-count-negative"
-         name: "EMB-CPP-473"
+##      - ruleName: "shift-count-negative"
+       - name: "EMB-CPP-473"
          enabled: true
-#       - ruleName: "sizeof-array-argument"
-         name: "EMB-CPP-474"
+##      - ruleName: "sizeof-array-argument"
+       - name: "EMB-CPP-474"
          enabled: true
-#       - ruleName: "sizeof-pointer-div"
-         name: "EMB-CPP-475"
+##      - ruleName: "sizeof-pointer-div"
+       - name: "EMB-CPP-475"
          enabled: true
-#       - ruleName: "switch-bool"
-         name: "EMB-CPP-476"
+##      - ruleName: "switch-bool"
+       - name: "EMB-CPP-476"
          enabled: true
-#       - ruleName: "tautological-pointer-compare"
-         name: "EMB-CPP-477"
+##      - ruleName: "tautological-pointer-compare"
+       - name: "EMB-CPP-477"
          enabled: true
-#       - ruleName: "unevaluated-expression"
-         name: "EMB-CPP-478"
+##      - ruleName: "unevaluated-expression"
+       - name: "EMB-CPP-478"
          enabled: true
-#       - ruleName: "MISRA-1.1-unknown-pragmas"
-         name: "EMB-CPP-479"
+##      - ruleName: "MISRA-1.1-unknown-pragmas"
+       - name: "EMB-CPP-479"
          enabled: true
-#       - ruleName: "unsequenced"
-         name: "EMB-CPP-480"
+##      - ruleName: "unsequenced"
+       - name: "EMB-CPP-480"
          enabled: true
-#       - ruleName: "unused-value"
-         name: "EMB-CPP-481"
+##      - ruleName: "unused-value"
+       - name: "EMB-CPP-481"
          enabled: true
-#       - ruleName: "varargs"
-         name: "EMB-CPP-482"
+##      - ruleName: "varargs"
+       - name: "EMB-CPP-482"
          enabled: true
-#       - ruleName: "MISRA-1.1-shift-negative-value"
-         name: "EMB-CPP-483"
+##      - ruleName: "MISRA-1.1-shift-negative-value"
+       - name: "EMB-CPP-483"
          enabled: true
-#       - ruleName: "strncat-size"
-         name: "EMB-CPP-485"
+##      - ruleName: "strncat-size"
+       - name: "EMB-CPP-485"
          enabled: true
-#       - ruleName: "unused-comparison"
-         name: "EMB-CPP-486"
+##      - ruleName: "unused-comparison"
+       - name: "EMB-CPP-486"
          enabled: true
-#       - ruleName: "tautological-compare"
-         name: "EMB-CPP-487"
+##      - ruleName: "tautological-compare"
+       - name: "EMB-CPP-487"
          enabled: true
-#       - ruleName: "compare-distinct-pointer-types"
-         name: "EMB-CPP-488"
+##      - ruleName: "compare-distinct-pointer-types"
+       - name: "EMB-CPP-488"
          enabled: true
-#       - ruleName: "logical-not-parentheses"
-         name: "EMB-CPP-489"
+##      - ruleName: "logical-not-parentheses"
+       - name: "EMB-CPP-489"
          enabled: true
-#       - ruleName: "visibility"
-         name: "EMB-CPP-490"
+##      - ruleName: "visibility"
+       - name: "EMB-CPP-490"
          enabled: true
-#       - ruleName: "incompatible-pointer-types"
-         name: "EMB-CPP-491"
+##      - ruleName: "incompatible-pointer-types"
+       - name: "EMB-CPP-491"
          enabled: true
-#       - ruleName: "null-conversion"
-         name: "EMB-CPP-492"
+##      - ruleName: "null-conversion"
+       - name: "EMB-CPP-492"
          enabled: true
-#       - ruleName: "format"
-         name: "EMB-CPP-493"
+##      - ruleName: "format"
+       - name: "EMB-CPP-493"
          enabled: true
-#       - ruleName: "fortify-source"
-         name: "EMB-CPP-494"
+##      - ruleName: "fortify-source"
+       - name: "EMB-CPP-494"
          enabled: true
-#       - ruleName: "knr-promoted-parameter"
-         name: "EMB-CPP-495"
+##      - ruleName: "knr-promoted-parameter"
+       - name: "EMB-CPP-495"
          enabled: true
-#       - ruleName: "missing-variable-declarations"
-         name: "EMB-CPP-497"
+##      - ruleName: "missing-variable-declarations"
+       - name: "EMB-CPP-497"
          enabled: true
-#       - ruleName: "reserved-id-macro"
-         name: "EMB-CPP-502"
+##      - ruleName: "reserved-id-macro"
+       - name: "EMB-CPP-502"
          enabled: true
-#       - ruleName: "cast-align"
-         name: "EMB-CPP-504"
+##      - ruleName: "cast-align"
+       - name: "EMB-CPP-504"
          enabled: true
-#       - ruleName: "missing-prototypes"
-         name: "EMB-CPP-505"
+##      - ruleName: "missing-prototypes"
+       - name: "EMB-CPP-505"
          enabled: false
-#       - ruleName: "strict-prototypes"
-         name: "EMB-CPP-506"
+##      - ruleName: "strict-prototypes"
+       - name: "EMB-CPP-506"
          enabled: true
-#       - ruleName: "sometimes-uninitialized"
-         name: "EMB-CPP-508"
+##      - ruleName: "sometimes-uninitialized"
+       - name: "EMB-CPP-508"
          enabled: true
-#       - ruleName: "sign-compare"
-         name: "EMB-CPP-509"
+##      - ruleName: "sign-compare"
+       - name: "EMB-CPP-509"
          enabled: true
-#       - ruleName: "unused-variable"
-         name: "EMB-CPP-510"
+##      - ruleName: "unused-variable"
+       - name: "EMB-CPP-510"
          enabled: true
-#       - ruleName: "padded"
-         name: "EMB-CPP-512"
+##      - ruleName: "padded"
+       - name: "EMB-CPP-512"
          enabled: true
-#       - ruleName: "unused-function"
-         name: "EMB-CPP-513"
+##      - ruleName: "unused-function"
+       - name: "EMB-CPP-513"
          enabled: true
-#       - ruleName: "comma"
-         name: "EMB-CPP-514"
+##      - ruleName: "comma"
+       - name: "EMB-CPP-514"
          enabled: true
-#       - ruleName: "double-promotion"
-         name: "EMB-CPP-515"
+##      - ruleName: "double-promotion"
+       - name: "EMB-CPP-515"
          enabled: true
-#       - ruleName: "unused-label"
-         name: "EMB-CPP-516"
+##      - ruleName: "unused-label"
+       - name: "EMB-CPP-516"
          enabled: true
-#       - ruleName: "shorten-64-to-32"
-         name: "EMB-CPP-519"
+##      - ruleName: "shorten-64-to-32"
+       - name: "EMB-CPP-519"
          enabled: true
-#       - ruleName: "vla"
-         name: "EMB-CPP-520"
+##      - ruleName: "vla"
+       - name: "EMB-CPP-520"
          enabled: true
-#       - ruleName: "extra-semi-stmt"
-         name: "EMB-CPP-524"
+##      - ruleName: "extra-semi-stmt"
+       - name: "EMB-CPP-524"
          enabled: true
-#       - ruleName: "duplicate-enum"
-         name: "EMB-CPP-525"
+##      - ruleName: "duplicate-enum"
+       - name: "EMB-CPP-525"
          enabled: true
-#       - ruleName: "for-loop-analysis"
-         name: "EMB-CPP-527"
+##      - ruleName: "for-loop-analysis"
+       - name: "EMB-CPP-527"
          enabled: true
-#       - ruleName: "keyword-macro"
-         name: "EMB-CPP-528"
+##      - ruleName: "keyword-macro"
+       - name: "EMB-CPP-528"
          enabled: true
-#       - ruleName: "microsoft-redeclare-static"
-         name: "EMB-CPP-529"
+##      - ruleName: "microsoft-redeclare-static"
+       - name: "EMB-CPP-529"
          enabled: true
-#       - ruleName: "bad-function-cast"
-         name: "EMB-CPP-533"
+##      - ruleName: "bad-function-cast"
+       - name: "EMB-CPP-533"
          enabled: true
-#       - ruleName: "unused-parameter"
-         name: "EMB-CPP-534"
+##      - ruleName: "unused-parameter"
+       - name: "EMB-CPP-534"
          enabled: false
-#       - ruleName: "pedantic"
-         name: "EMB-CPP-535"
+##      - ruleName: "pedantic"
+       - name: "EMB-CPP-535"
          enabled: true
-#       - ruleName: "cast-qual"
-         name: "EMB-CPP-537"
+##      - ruleName: "cast-qual"
+       - name: "EMB-CPP-537"
          enabled: true
-#       - ruleName: "float-equal"
-         name: "EMB-CPP-538"
+##      - ruleName: "float-equal"
+       - name: "EMB-CPP-538"
          enabled: true
-#       - ruleName: "assignment operator non-const arg"
-         name: "EMB-CPP-539"
+##      - ruleName: "assignment operator non-const arg"
+       - name: "EMB-CPP-539"
          enabled: true
-#       - ruleName: "assignment operator returns void"
-         name: "EMB-CPP-540"
+##      - ruleName: "assignment operator returns void"
+       - name: "EMB-CPP-540"
          enabled: true
-#       - ruleName: "assignment operator non-const return"
-         name: "EMB-CPP-541"
+##      - ruleName: "assignment operator non-const return"
+       - name: "EMB-CPP-541"
          enabled: true
-#       - ruleName: "Returning Local Address"
-         name: "EMB-CPP-542"
+##      - ruleName: "Returning Local Address"
+       - name: "EMB-CPP-542"
          enabled: false
-#       - ruleName: "MISRA-C2012-14.3"
-         name: "EMB-CPP-543"
+##      - ruleName: "MISRA-C2012-14.3"
+       - name: "EMB-CPP-543"
          enabled: false
-#       - ruleName: "MISRA-C2012-18.3"
-         name: "EMB-CPP-544"
+##      - ruleName: "MISRA-C2012-18.3"
+       - name: "EMB-CPP-544"
          enabled: false
-#       - ruleName: "MISRA-C2012-1.2"
-         name: "EMB-CPP-545"
+##      - ruleName: "MISRA-C2012-1.2"
+       - name: "EMB-CPP-545"
          enabled: false
-#       - ruleName: "MISRA-C2012-2.5"
-         name: "EMB-CPP-546"
+##      - ruleName: "MISRA-C2012-2.5"
+       - name: "EMB-CPP-546"
          enabled: false
-#       - ruleName: "MISRA-C2012-16.1"
-         name: "EMB-CPP-547"
+##      - ruleName: "MISRA-C2012-16.1"
+       - name: "EMB-CPP-547"
          enabled: false
-#       - ruleName: "MISRA-C2012-10.7"
-         name: "EMB-CPP-548"
+##      - ruleName: "MISRA-C2012-10.7"
+       - name: "EMB-CPP-548"
          enabled: false
-#       - ruleName: "MISRA-C2012-2.3"
-         name: "EMB-CPP-549"
+##      - ruleName: "MISRA-C2012-2.3"
+       - name: "EMB-CPP-549"
          enabled: false
-#       - ruleName: "MISRA-C2012-10.1"
-         name: "EMB-CPP-550"
+##      - ruleName: "MISRA-C2012-10.1"
+       - name: "EMB-CPP-550"
          enabled: false
-#       - ruleName: "MISRA-C2012-10.3"
-         name: "EMB-CPP-551"
+##      - ruleName: "MISRA-C2012-10.3"
+       - name: "EMB-CPP-551"
          enabled: false
-#       - ruleName: "MISRA-C2012-9.2"
-         name: "EMB-CPP-552"
+##      - ruleName: "MISRA-C2012-9.2"
+       - name: "EMB-CPP-552"
          enabled: false
-#       - ruleName: "MISRA-C2012-20.9"
-         name: "EMB-CPP-553"
+##      - ruleName: "MISRA-C2012-20.9"
+       - name: "EMB-CPP-553"
          enabled: false
-#       - ruleName: "MISRA-C2012-5.8"
-         name: "EMB-CPP-554"
+##      - ruleName: "MISRA-C2012-5.8"
+       - name: "EMB-CPP-554"
          enabled: false
-#       - ruleName: "MISRA-C2012-20.6"
-         name: "EMB-CPP-555"
+##      - ruleName: "MISRA-C2012-20.6"
+       - name: "EMB-CPP-555"
          enabled: false
-#       - ruleName: "MISRA-1.1-int-conversion"
-         name: "EMB-CPP-556"
+##      - ruleName: "MISRA-1.1-int-conversion"
+       - name: "EMB-CPP-556"
          enabled: false
-#       - ruleName: "MISRA-1.1-multichar"
-         name: "EMB-CPP-557"
+##      - ruleName: "MISRA-1.1-multichar"
+       - name: "EMB-CPP-557"
          enabled: true
-#       - ruleName: "MISRA-1.1-unknown-pragmas"
-         name: "EMB-CPP-558"
+##      - ruleName: "MISRA-1.1-unknown-pragmas"
+       - name: "EMB-CPP-558"
          enabled: true
-#       - ruleName: "MISRA-1.1-shift-negative-value"
-         name: "EMB-CPP-559"
+##      - ruleName: "MISRA-1.1-shift-negative-value"
+       - name: "EMB-CPP-559"
          enabled: true
-#       - ruleName: "MISRA-1.1-duplicate-decl-specifier"
-         name: "EMB-CPP-560"
+##      - ruleName: "MISRA-1.1-duplicate-decl-specifier"
+       - name: "EMB-CPP-560"
          enabled: true
-#       - ruleName: "shallow copy construct"
-         name: "EMB-CPP-561"
+##      - ruleName: "shallow copy construct"
+       - name: "EMB-CPP-561"
          enabled: true
-#       - ruleName: "shallow copy assignment"
-         name: "EMB-CPP-562"
+##      - ruleName: "shallow copy assignment"
+       - name: "EMB-CPP-562"
          enabled: true
-#       - ruleName: "delete non virtual destructor"
-         name: "EMB-CPP-563"
+##      - ruleName: "delete non virtual destructor"
+       - name: "EMB-CPP-563"
          enabled: true
-#       - ruleName: "destructor not virtual"
-         name: "EMB-CPP-564"
+##      - ruleName: "destructor not virtual"
+       - name: "EMB-CPP-564"
          enabled: true
-#       - ruleName: "const override mismatch"
-         name: "EMB-CPP-565"
+##      - ruleName: "const override mismatch"
+       - name: "EMB-CPP-565"
          enabled: true
-#       - ruleName: "print string format mismatch"
-         name: "EMB-CPP-566"
+##      - ruleName: "print string format mismatch"
+       - name: "EMB-CPP-566"
          enabled: true
-#       - ruleName: "main returns void"
-         name: "EMB-CPP-567"
+##      - ruleName: "main returns void"
+       - name: "EMB-CPP-567"
          enabled: true
-#       - ruleName: "infinite loop"
-         name: "EMB-CPP-568"
+##      - ruleName: "infinite loop"
+       - name: "EMB-CPP-568"
          enabled: false
-#       - ruleName: "non POD memory operation"
-         name: "EMB-CPP-569"
+##      - ruleName: "non POD memory operation"
+       - name: "EMB-CPP-569"
          enabled: true
-#       - ruleName: "invalid printf length modifier"
-         name: "EMB-CPP-570"
+##      - ruleName: "invalid printf length modifier"
+       - name: "EMB-CPP-570"
          enabled: false
-#       - ruleName: "incorrect pointer scaling"
-         name: "EMB-CPP-571"
+##      - ruleName: "incorrect pointer scaling"
+       - name: "EMB-CPP-571"
          enabled: true
-#       - ruleName: "unvalidated param as index"
-         name: "EMB-CPP-572"
+##      - ruleName: "unvalidated param as index"
+       - name: "EMB-CPP-572"
          enabled: false
-#       - ruleName: "unvalidated loop boundary"
-         name: "EMB-CPP-573"
+##      - ruleName: "unvalidated loop boundary"
+       - name: "EMB-CPP-573"
          enabled: false
-#       - ruleName: "inconsistent null pointer check"
-         name: "EMB-CPP-574"
+##      - ruleName: "inconsistent null pointer check"
+       - name: "EMB-CPP-574"
          enabled: true
-#       - ruleName: "bitwise operands mismatch"
-         name: "EMB-CPP-575"
+##      - ruleName: "bitwise operands mismatch"
+       - name: "EMB-CPP-575"
          enabled: true
-#       - ruleName: "unvalidated memory allocation"
-         name: "EMB-CPP-576"
+##      - ruleName: "unvalidated memory allocation"
+       - name: "EMB-CPP-576"
          enabled: true
-#       - ruleName: "invalid iterator"
-         name: "EMB-CPP-577"
+##      - ruleName: "invalid iterator"
+       - name: "EMB-CPP-577"
          enabled: false
-#       - ruleName: "unconditional pointer return deref"
-         name: "EMB-CPP-578"
+##      - ruleName: "unconditional pointer return deref"
+       - name: "EMB-CPP-578"
          enabled: true
-#       - ruleName: "unvalidated loop boundary call"
-         name: "EMB-CPP-579"
+##      - ruleName: "unvalidated loop boundary call"
+       - name: "EMB-CPP-579"
          enabled: true
-#       - ruleName: "invalid iterator dereferencing"
-         name: "EMB-CPP-651"
+##      - ruleName: "invalid iterator dereferencing"
+       - name: "EMB-CPP-651"
          enabled: false
-#       - ruleName: "MISRA-C2012-21.21"
-         name: "EMB-CPP-652"
+##      - ruleName: "MISRA-C2012-21.21"
+       - name: "EMB-CPP-652"
          enabled: true
-#       - ruleName: "MISRA-C2012-12.5"
-         name: "EMB-CPP-653"
+##      - ruleName: "MISRA-C2012-12.5"
+       - name: "EMB-CPP-653"
          enabled: true
-#       - ruleName: "hard coded credentials"
-         name: "EMB-CPP-654"
+##      - ruleName: "hard coded credentials"
+       - name: "EMB-CPP-654"
          enabled: true
