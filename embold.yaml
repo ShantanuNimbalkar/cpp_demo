@@ -34,7 +34,7 @@ sources:
 #      enabled: true
 
 modules:
-    - key: gamma_cxx
+    - name: gamma_cxx
       enabled: true
       rules:
 ##      "bzero.insecureAPI.security"
