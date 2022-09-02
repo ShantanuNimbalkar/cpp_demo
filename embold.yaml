@@ -315,7 +315,7 @@ modules:
          enabled: true
 #        ruleName: "MISRA-C2012-21.21"
        - key: "EMB-CPP-652"
-         enabled: true
+         enabled: false
 #        ruleName: "MISRA-C2012-12.5"
        - key: "EMB-CPP-653"
-         enabled: true
+         enabled: false
