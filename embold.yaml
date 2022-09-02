@@ -1704,7 +1704,7 @@ modules:
          enabled: false
 ##      "unconditional pointer return deref"
        - key: "EMB-CPP-578"
-         enabled: true
+         enabled: false
 ##      "unvalidated loop boundary call"
        - key: "EMB-CPP-579"
          enabled: true
