@@ -1,6 +1,6 @@
 version: 1
 ## Please visit https://docs.embold.io/v2-quick-start-guide/#update-configurations to know more
-languages: 'CPP'
+languages: 'JAVA'
 # Sources mention which Files/Dirs to be taken for Analysis
 sources:
   #Files or Directories to be Excluded are mentioned in exclusions
@@ -35,7 +35,7 @@ sources:
 
 modules:
     - name: gamma_cxx
-      enabled: true
+      enabled: false
       rules:
 #        ruleName: "MISRA-C2012-1.1"
        - key: "EMB-CPP-368"
