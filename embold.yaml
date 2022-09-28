@@ -34,5 +34,5 @@ sources:
 #      enabled: true
 
 modules:
-    - name: gamma_cxx
-      enabled: false
+    - name: gamma_java
+      enabled: true
