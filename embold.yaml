@@ -24,7 +24,7 @@ sources:
     - 'demosubproject'
 
 #Specify modules you would like to enable or disable.
-#modules:
+modules:
     - name: gamma_java
       enabled: true
 #      rules:
